@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WILL - Twitter OAuth Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #1DA1F2;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        #status {
+            margin-top: 1rem;
+            padding: 1rem;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Twitter OAuth Test</h1>
+        <p>Click the button below to test Twitter OAuth integration:</p>
+        <a href="https://twitter.com/i/oauth2/authorize" class="button" id="loginButton">Test Twitter OAuth</a>
+        <div id="status"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const loginButton = document.getElementById('loginButton');
+            const statusDiv = document.getElementById('status');
+            
+            // Get client ID from URL parameters (for testing)
+            const urlParams = new URLSearchParams(window.location.search);
+            const clientId = urlParams.get('client_id');
+            
+            if (clientId) {
+                const authUrl = new URL('https://twitter.com/i/oauth2/authorize');
+                authUrl.searchParams.append('response_type', 'code');
+                authUrl.searchParams.append('client_id', clientId);
+                authUrl.searchParams.append('redirect_uri', 'https://shibakenfinance.github.io/WILL/callback');
+                authUrl.searchParams.append('scope', 'tweet.read tweet.write users.read offline.access');
+                authUrl.searchParams.append('state', 'state');
+                authUrl.searchParams.append('code_challenge', 'challenge');
+                authUrl.searchParams.append('code_challenge_method', 'plain');
+                
+                loginButton.href = authUrl.toString();
+            }
+            
+            // Check if we have an error or success message
+            const error = urlParams.get('error');
+            const code = urlParams.get('code');
+            
+            if (error) {
+                statusDiv.className = 'error';
+                statusDiv.textContent = `Error: ${error}`;
+            } else if (code) {
+                statusDiv.className = 'success';
+                statusDiv.textContent = 'Successfully authenticated!';
+            }
+        });
+    </script>
+</body>
+</html>
