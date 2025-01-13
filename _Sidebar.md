@@ -1,32 +1,30 @@
 # WILL Documentation
 
-### Getting Started
+## Getting Started
 * [[Home]]
 * [[FAQ]]
 * [[Roadmap]]
 
-### Technical Documentation
+## Partnerships
+* [[Everstrike-Partnership]]
+* [[EVS-Token-Integration]]
+
+## Technical Documentation
 * [[Architecture]]
 * [[API-Documentation]]
 * [[Integration-Guide]]
 
-### Integration
-* [[Integration-Guide]]
-* [[Everstrike-Partnership]]
-* [[Social-Integration-Farcaster]]
-* [[Telegram-Integration]]
-
-### Development
+## Development
 * [[Contributing]]
 * [[Development-Setup]]
 * [[Best-Practices]]
 
-### Community
+## Community
 * [[Community-Guidelines]]
 * [[Governance]]
 * [[Support]]
 
-### Resources
+## Resources
 * [[Tutorials]]
 * [[Use-Cases]]
 * [[Changelog]]
