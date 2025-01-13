@@ -10,6 +10,12 @@
 * [[API-Documentation]]
 * [[Integration-Guide]]
 
+### Integration
+* [[Integration-Guide]]
+* [[Everstrike-Partnership]]
+* [[Social-Integration-Farcaster]]
+* [[Telegram-Integration]]
+
 ### Development
 * [[Contributing]]
 * [[Development-Setup]]

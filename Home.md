@@ -9,6 +9,7 @@ Welcome to the WILL (Web3 Intelligence & Learning Layer) wiki! This space contai
 - [[Contributing]] - How to contribute to WILL
 - [[Roadmap]] - Development timeline and milestones
 - [[Integration-Guide]] - How to integrate with WILL
+- [[Everstrike-Partnership]] - Details about WILL's first corporate partnership
 - [[FAQ]] - Frequently asked questions
 
 ## About WILL
