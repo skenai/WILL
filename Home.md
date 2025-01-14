@@ -1,40 +1,60 @@
-# Welcome to WILL Wiki
+# Welcome to WILL
 
-Welcome to the WILL (Web3 Intelligence & Learning Layer) wiki! This space contains comprehensive documentation about WILL's architecture, development, and community guidelines.
+WILL (Web3 Intelligence & Learning Layer) is an advanced AI system designed to provide intelligent automation and analysis for Web3 ecosystems. This wiki serves as the central knowledge base for WILL's architecture, features, and integration guides.
 
-## Quick Navigation
+## Core Systems
 
-- [[Architecture]] - System design and components
-- [[API-Documentation]] - API endpoints and usage
-- [[Contributing]] - How to contribute to WILL
-- [[Roadmap]] - Development timeline and milestones
-- [[Integration-Guide]] - How to integrate with WILL
-- [[Everstrike-Partnership]] - Details about WILL's first corporate partnership
-- [[FAQ]] - Frequently asked questions
+### [Token System](Token-System)
+Comprehensive documentation of WILL's token ecosystem:
+- SHIBAK (Platform Token)
+- SBX (Governance Token)
+- BSTBL (Stablecoin)
+- SBV (Value Token)
+- EVS (Everstrike Token)
 
-## About WILL
+### [Research and XP](Research-and-XP)
+Learn about our research proposal framework and XP reward system:
+- Track-based XP values
+- Quality metrics
+- Example research proposals
+- Best practices
 
-WILL is an advanced AI system designed to facilitate meaningful interactions and knowledge sharing in the Web3 ecosystem. As a core component of the SKENAI DAO, WILL represents the next generation of decentralized intelligence.
+### [Training System](Training-System)
+Understanding WILL's training methodology and contribution guidelines.
 
-### Key Features
+## Strategic Partnerships
 
-- Social intelligence integration
-- DAO governance capabilities
-- Advanced learning mechanisms
-- Cross-chain compatibility
+### [Everstrike Partnership](Everstrike-Partnership)
+Details about our first strategic partnership and integration.
 
-## Getting Started
+### [EVS Token Integration](EVS-Token-Integration)
+Technical implementation of the EVS token in WILL's ecosystem.
 
-1. Check out our [[Roadmap]] to see what we're working on
-2. Read the [[Architecture]] documentation to understand the system
-3. Follow the [[Integration-Guide]] to start building with WILL
-4. Join our community and consider [[Contributing]]
+## Integration Guides
 
-## Community Resources
+### [API Documentation](API-Documentation)
+Comprehensive API reference for integrating with WILL.
 
-- GitHub Repository: [WILL](https://github.com/shibakenfinance/WILL)
-- Community Discord: (Coming Soon)
-- Twitter: (Coming Soon)
+### [Integration Guide](Integration-Guide)
+Step-by-step guide for implementing WILL in your project.
+
+### [Social Integration](Social-Integration-Farcaster)
+Connecting WILL with social platforms like Farcaster.
+
+### [Telegram Integration](Telegram-Integration)
+Using WILL through Telegram.
+
+## Community
+
+### [Community Guidelines](Community-Guidelines)
+Best practices for participating in the WILL ecosystem.
+
+### [FAQ](FAQ)
+Frequently asked questions about WILL.
+
+## Contributing
+
+We welcome contributions from the community! Check out our [contribution guidelines](Contributing) to get started.
 
 ## Recent Updates
 
