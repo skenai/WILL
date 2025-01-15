@@ -1,8 +1,8 @@
-# DAO Member Registration and Tracking
+# SKENAI DAO Member Registration and Tracking
 
 ## Overview
 
-The WILL DAO uses a multi-faceted approach to member registration and engagement tracking, allowing members to choose their preferred authentication methods while maintaining privacy options.
+The SKENAI DAO uses a multi-faceted approach to member registration and engagement tracking, allowing members to choose their preferred authentication methods while maintaining privacy options.
 
 ## Registration Methods
 
@@ -255,4 +255,3 @@ Retention:
     30_Day: 80%
     90_Day: 60%
     Annual: 40%
-```
