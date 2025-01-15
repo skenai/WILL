@@ -3,3 +3,7 @@ node_modules/
 .env
 .env.local
 *.log
+
+# Wiki symlinks and backups
+/WILL.wiki
+*.wiki.backup/
