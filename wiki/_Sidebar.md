@@ -1,35 +1,24 @@
 # WILL Documentation
 
-## Getting Started
-* [[Home]]
-* [[FAQ]]
-* [[Roadmap]]
+### WILL Documentation
+* [Home](Home)
+* [Architecture](Architecture)
+* [Research and XP System](Research-and-XP)
+* [Token System](Token-System)
+* [Training System](Training-System)
 
-## Partnerships
-* [[Everstrike-Partnership]]
-* [[EVS-Token-Integration]]
+### Integration
+* [API Documentation](API-Documentation)
+* [Integration Guide](Integration-Guide)
+* [Telegram Integration](Telegram-Integration)
+* [Social Integration](Social-Integration-Farcaster)
 
-## Technical Documentation
-* [[Architecture]]
-* [[API-Documentation]]
-* [[Integration-Guide]]
+### Community
+* [Contributing](Contributing)
+* [FAQ](FAQ)
+* [Community Guidelines](Community-Guidelines)
 
-## Core Systems
-* [[Token-System]]
-* [[Research-and-XP]]
-* [[Training-System]]
-
-## Development
-* [[Contributing]]
-* [[Development-Setup]]
-* [[Best-Practices]]
-
-## Community
-* [[Community-Guidelines]]
-* [[Governance]]
-* [[Support]]
-
-## Resources
-* [[Tutorials]]
-* [[Use-Cases]]
-* [[Changelog]]
+### Development
+* [Roadmap](Roadmap)
+* [Everstrike Partnership](Everstrike-Partnership)
+* [EVS Token Integration](EVS-Token-Integration)
