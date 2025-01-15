@@ -1,11 +1,11 @@
 # Welcome to WILL
 
-WILL (Web3 Intelligence & Learning Layer) is an advanced AI system designed to provide intelligent automation and analysis for Web3 ecosystems. This wiki serves as the central knowledge base for WILL's architecture, features, and integration guides.
+WILL (Web3 Intelligence & Learning Layer) is an advanced AI system designed to provide intelligent automation and analysis for Web3 ecosystems. As the core AI agent of the SKENAI DAO, this wiki serves as the central knowledge base for WILL's architecture, features, and integration guides.
 
 ## Core Systems
 
 ### [Token System](Token-System)
-Comprehensive documentation of WILL's token ecosystem:
+Comprehensive documentation of the SKENAI ecosystem tokens:
 - SHIBAK (Platform Token)
 - SBX (Governance Token)
 - BSTBL (Stablecoin)
