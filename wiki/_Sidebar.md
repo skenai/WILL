@@ -20,6 +20,7 @@
 - [Community Guidelines](Community-Guidelines)
 
 ### Development
+- [Security and Testing](Security-and-Testing)
 - [Roadmap](Roadmap)
 - [Everstrike Partnership](Everstrike-Partnership)
 - [EVS Token Integration](EVS-Token-Integration)
