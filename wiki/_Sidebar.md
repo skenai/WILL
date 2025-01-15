@@ -14,6 +14,7 @@
 - [Social Integration](Social-Integration-Farcaster)
 
 ### Community
+- [Member Registration](Member-Registration)
 - [Contributing](Contributing)
 - [FAQ](FAQ)
 - [Community Guidelines](Community-Guidelines)
