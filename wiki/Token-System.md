@@ -6,48 +6,80 @@ The SKENAI ecosystem utilizes a strategic token deployment system that integrate
 
 ## Token System Architecture
 
-### Launch Phase Tokens (Q1 2024)
+### Core Tokens
 
 1. **SHIBAK (Platform Token)**
    - Supply: 100 quadrillion
    - Purpose: Core ecosystem value
    - Features: Pattern rewards, value creation
-   - Launch: Day 1
+   - Status: Deployed May 2021 (Fully diluted supply)
 
 2. **SBX (Governance Token)**
    - Supply: 25 million
    - Purpose: Governance and staking
    - Features: Voting, validation
-   - Launch: Day 1
+   - Status: Development Q1 2025
 
 3. **BSTBL (Stablecoin)**
    - Supply: Algorithmic
    - Purpose: Value stability
    - Features: Price stability, operations
-   - Launch: Day 1
+   - Status: Development Q1 2025
 
 4. **SBV (Value Token)**
-   - Purpose: Value accrual and distribution
-   - Features: Value capture from operations
-   - Integration: Core system mechanics
+   - Supply: Dynamic
+   - Purpose: Value capture
+   - Features: Economic stabilization
+   - Status: Development Q1 2025
 
 5. **EVS (Everstrike Token)**
-   - Purpose: Strategic partnership token
-   - Features: Cross-DAO governance, liquidity management
-   - Integration: First corporate partnership token
+   - Supply: Performance-based
+   - Purpose: Technical rewards
+   - Features: Development incentives
+   - Status: Development Q1 2025
 
 ### Token Mechanics
 
 1. **Value Creation**
-   - Pattern recognition
-   - Network effects
-   - System evolution
-   - Growth mechanics
+   - Pattern recognition and rewards
+   - Network effects and scaling
+   - System evolution mechanics
+   - Trade finance integration
 
 2. **Governance**
-   - Proposal system
-   - Voting mechanics
-   - Validation system
+   - Pattern-based proposal system
+   - Value-weighted voting
+   - Guardian network oversight
+   - Project approval rights
+
+3. **Pattern Integration**
+   - Temporal pattern rewards
+   - Value preservation incentives
+   - Cross-chain pattern detection
+   - Trade finance optimization
+
+### Economic Model
+
+```yaml
+Value Creation:
+  Pattern Recognition:
+    - Temporal analysis rewards
+    - Cross-chain pattern detection
+    - Value preservation bonuses
+    - Trade finance premiums
+    
+  Network Effects:
+    - Pattern network growth
+    - Guardian participation
+    - Cross-chain expansion
+    - Market penetration
+    
+  System Evolution:
+    - Pattern complexity scaling
+    - Value preservation metrics
+    - Network maturity rewards
+    - Trade finance integration
+```
 
 ## XP System Integration
 

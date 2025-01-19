@@ -6,6 +6,9 @@
 - [Research and XP System](Research-and-XP)
 - [Token System](Token-System)
 - [Training System](Training-System)
+- [Pattern Recognition](Pattern-Recognition)
+- [Guardians of Time](Guardians-of-Time)
+- [Governance Proposals](Governance-Proposals)
 
 ### Integration
 - [API Documentation](API-Documentation)

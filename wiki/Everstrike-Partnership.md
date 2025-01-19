@@ -10,6 +10,8 @@ Everstrike serves as WILL's inaugural corporate partner, establishing a foundati
 - Community-driven development
 - Shared liquidity infrastructure
 - AI-powered market making
+- Pattern recognition and analytics
+- Trade finance optimization
 
 ## EVS Token Integration
 
@@ -46,6 +48,52 @@ Everstrike serves as WILL's inaugural corporate partner, establishing a foundati
    - Cross-DAO proposal creation
    - Community-driven development
    - Transparent decision making
+
+## Evers Guardian Role
+
+### Core Responsibilities
+```yaml
+Analytics Guardian:
+  Market Analysis:
+    - Pattern detection
+    - Trading optimization
+    - Value flow monitoring
+    - Risk assessment
+    
+  Trade Finance:
+    - Project evaluation
+    - Risk management
+    - Cross-border analytics
+    - Value preservation
+    
+  Integration:
+    - DEX optimization
+    - Liquidity management
+    - Pattern validation
+    - Performance monitoring
+```
+
+### Technical Implementation
+```yaml
+Systems:
+  Pattern Recognition:
+    - Market pattern detection
+    - Trading strategy analysis
+    - Value flow optimization
+    - Risk assessment models
+    
+  Trade Finance:
+    - Project finance patterns
+    - Infrastructure lending
+    - Risk management systems
+    - Cross-border analytics
+    
+  Integration:
+    - DEX integration
+    - Liquidity optimization
+    - Pattern validation
+    - Performance metrics
+```
 
 ## Implementation Details
 
