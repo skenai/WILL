@@ -6,33 +6,29 @@ This page documents key governance proposals that shape WILL's development and i
 
 ## Core Proposals
 
-### G-L0-018: Guardians of Time
-
+### G-L0-018: Circuit & Mesh Networks
 ```yaml
-ProposalID: G-L0-018-GUARDIANS-TIME
-Status: Approved
+ProposalID: G-L0-018-CIRCUIT-MESH-NETWORKS
+Status: Active
+Priority: High
 Track: Governance (L0)
 Implementation: Q2-Q4 2025
 ```
 
 #### Summary
-The Guardians of Time proposal establishes WILL as the Chief Pattern Guardian in a network of specialized AI agents focused on pattern recognition and value preservation across blockchain networks.
+The Circuit & Mesh Network proposal establishes WILL as the Chief Circuit Controller in a network of specialized AI agents focused on value flow optimization and pattern recognition across blockchain networks. The framework introduces:
 
-#### Technical Architecture
-
-1. **Pattern Recognition Engine**
+1. **Circuit Control System**
 ```yaml
 Core Functions:
-  - Temporal pattern detection
-  - Value measurement
-  - Pattern validation
-  - Data management
-  - Trade finance analysis
+  - Value flow monitoring
+  - Pattern recognition
+  - Performance optimization
 
 Integration:
   William:
-    Role: Chief Pattern Guardian
-    Oversight: Pattern detection and validation
+    Role: Chief Circuit Controller
+    Oversight: Circuit control and optimization
     References: G-L1-055-WILL-AUTO-LEARN
     
   Evers:
@@ -47,31 +43,45 @@ Infrastructure Requirements:
   Bandwidth: 1Gbps dedicated
 ```
 
-2. **Oracle Network**
+2. **Mesh Network Layer**
 ```yaml
 Implementation:
-  Phase 1: Chainlink Integration
-    - Price feeds
-    - Market data
+  Phase 1: Circuit Interconnections
+    - Value multiplication
+    - Pattern propagation
     - Network metrics
-    - Trade finance data
   
-  Phase 2: Custom Oracle
-    - Pattern validation
-    - Value measurement
+  Phase 2: Custom Mesh Network
+    - Circuit optimization
+    - Value flow management
     - Cross-chain communication
     - Project risk assessment
+```
+
+3. **Integration with GFORCE**
+```yaml
+Implementation:
+  Phase 1: Track Mapping
+    - Permutation management
+    - System optimization
+    - Network integration
+  
+  Phase 2: Custom GFORCE Integration
+    - Circuit control
+    - Value flow optimization
+    - Pattern recognition
+    - Project finance integration
 ```
 
 #### Economic Framework
 
 1. **Value Creation Model**
 ```mathematica
-Staking_Reward = Base_APY + Pattern_Multiplier + Network_Effect + Trade_Premium
+Staking_Reward = Base_APY + Circuit_Multiplier + Mesh_Network_Effect + Trade_Premium
 where:
   Base_APY = 4-15%
-  Pattern_Multiplier = f(pattern_value)
-  Network_Effect = g(total_stake)
+  Circuit_Multiplier = f(circuit_value)
+  Mesh_Network_Effect = g(total_stake)
   Trade_Premium = h(trade_finance_volume)
 ```
 
@@ -82,8 +92,8 @@ where:
 Duration: 3 months
 Budget: $500,000
 Deliverables:
-  - Basic pattern recognition
-  - Chainlink integration
+  - Basic circuit control
+  - Mesh network foundation
   - Staking enhancements
   - Trade finance foundation
 ```
@@ -93,9 +103,9 @@ Deliverables:
 Duration: 3 months
 Budget: $750,000
 Deliverables:
-  - Custom oracle development
-  - Advanced pattern detection
-  - Value measurement system
+  - Custom mesh network development
+  - Advanced circuit control
+  - Value flow management system
   - Project finance integration
 ```
 
@@ -132,9 +142,9 @@ Computing:
 ```
 
 #### Related Documentation
-- [Guardians of Time Framework](Guardians-of-Time)
-- [Pattern Recognition System](Pattern-Recognition)
-- [Token Integration](Token-System)
+- [Circuit & Mesh Network Framework](Circuit-Mesh-Network)
+- [Circuit Control System](Circuit-Control)
+- [Mesh Network Layer](Mesh-Network)
 - [Technical Architecture](Architecture)
 
 ## Other Key Proposals

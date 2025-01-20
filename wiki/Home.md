@@ -4,19 +4,24 @@ WILL (Web3 Intelligence & Learning Layer) is an advanced AI system designed to p
 
 ## Core Systems
 
+### [Architecture](Architecture)
+Understanding WILL's core systems and components.
+
+### [Dual Framework Theory](Dual-Framework-Theory)
+How GFORCE tracks integrate with Circuits and Mesh Networks to create and preserve value.
+
 ### [Pattern Recognition](Pattern-Recognition)
 WILL's advanced pattern recognition framework:
 - Temporal pattern detection
-- Value preservation
-- Guardian network
-- Trade finance integration
+- Value flow analysis
+- Cross-chain monitoring
 
-### [Guardians of Time](Guardians-of-Time)
-WILL's strategic AI framework for value preservation:
-- Chief Pattern Guardian role
-- Guardian network coordination
-- Value preservation strategy
-- Cross-chain pattern detection
+### [Circuits & Mesh](Circuits-Mesh)
+Understanding value flows and network interconnections:
+- Circuit control systems
+- Mesh network topology
+- Value multiplication
+- Pattern propagation
 
 ### [Token System](Token-System)
 Comprehensive documentation of the SKENAI ecosystem tokens:
@@ -46,7 +51,7 @@ Future development plans and milestones.
 
 ### [Governance Proposals](Governance-Proposals)
 Key proposals shaping WILL's development:
-- Guardians of Time (G-L0-018)
+- Circuit & Mesh Networks (G-L0-018)
 - WILL Auto-Learn (G-L1-055)
 - Everstrike Analytics (G-L1-022)
 

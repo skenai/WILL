@@ -7,7 +7,8 @@
 - [Token System](Token-System)
 - [Training System](Training-System)
 - [Pattern Recognition](Pattern-Recognition)
-- [Guardians of Time](Guardians-of-Time)
+- [Circuits & Mesh](Circuits-Mesh)
+- [Dual Framework Theory](Dual-Framework-Theory)
 - [Governance Proposals](Governance-Proposals)
 
 ### Integration
