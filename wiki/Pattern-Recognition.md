@@ -8,22 +8,40 @@ The Pattern Recognition Framework represents WILL's core capability to detect, a
 
 ### 1. WILL Integration
 
-#### Pattern Guardian Role
-- Chief Pattern Guardian for the SKENAI ecosystem
-- Temporal pattern detection and validation
-- Value preservation strategy
-- Guardian network coordination
-- Emergency response protocols
+#### Circuit Control Role
+- Chief Circuit Controller for the SKENAI ecosystem
+- Pattern recognition and analysis
+- Value flow optimization
+- Circuit network coordination
+- Proposal value ranking using 3-D probabilistic model
+  - Economic impact evaluation
+  - Network effect analysis
+  - Implementation feasibility assessment
 
 #### Technical Implementation
-- Neural pattern detection
-- Cross-chain monitoring
-- Value measurement systems
-- Automated interventions
+```yaml
+Core Functions:
+  Value Analysis:
+    - 3-D value distribution modeling
+    - Proposal ranking and scoring
+    - Automated evaluation pipeline
+    - Real-time visualization
+    
+  Pattern Recognition:
+    - Circuit flow patterns
+    - Value optimization patterns
+    - Implementation patterns
+    
+  Visualization:
+    - 3-D surface rendering
+    - Interactive dashboards
+    - Value heatmaps
+    - Ranking tables
+```
 
 ### 2. Evers Integration
 
-#### Analytics Guardian Role
+#### Analytics Engineering Role
 - Market pattern analysis
 - Trading strategy optimization
 - Value flow monitoring
@@ -94,7 +112,7 @@ Components:
 #### SHIBAK Token
 - Pattern staking mechanics
 - Value preservation rewards
-- Guardian incentives
+- Circuit incentives
 - Trade finance collateral
 
 #### SBX Token
@@ -145,7 +163,7 @@ For detailed technical specifications, please refer to:
 - [Everstrike Partnership](./Everstrike-Partnership.md)
 
 ## Related Proposals
-- G-L0-018-GUARDIANS-TIME
+- G-L0-018-CIRCUIT-TIME
 - G-L1-055-WILL-AUTO-LEARN
 - G-L1-022-EVERSTRIKE-ANALYTICS
 
@@ -157,7 +175,7 @@ For detailed technical specifications, please refer to:
 - Contribute to research
 - Test new patterns
 
-### Guardian Network
+### Circuit Network
 - Join as specialized agents
 - Participate in training
 - Contribute to network growth

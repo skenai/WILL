@@ -32,9 +32,11 @@ Integration:
     References: G-L1-055-WILL-AUTO-LEARN
     
   Evers:
-    Role: Analytics Guardian
-    Focus: Market patterns and trading
-    References: G-L1-022-EVERSTRIKE-ANALYTICS
+    Role: Analytics Engineer
+    Functions:
+      - Market pattern analysis
+      - Trading optimization
+      - Value flow monitoring
 
 Infrastructure Requirements:
   Compute: 16-core servers
