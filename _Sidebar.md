@@ -1,9 +1,16 @@
-# WILL Documentation
+# Documentation
 
-### WILL Documentation
+### SKENAI Core
 - [Home](Home)
+- [GFORCE Framework](GFORCE-Framework)
+- [Token System Implementation](Token-System-Implementation)
+- [Social Integration](Social-Integration)
+- [WillChat Component](WillChat-Component)
+- [GitHub Integration](GitHub-Integration)
+- [Research and XP](Research-and-XP)
+
+### WILL Core Systems
 - [Architecture](Architecture)
-- [Research and XP System](Research-and-XP)
 - [Token System](Token-System)
 - [Training System](Training-System)
 - [Pattern Recognition](Pattern-Recognition)
@@ -15,7 +22,8 @@
 - [API Documentation](API-Documentation)
 - [Integration Guide](Integration-Guide)
 - [Telegram Integration](Telegram-Integration)
-- [Social Integration](Social-Integration-Farcaster)
+- [Edge Runtime](Edge-Runtime)
+- [Health Check System](Health-Check-System)
 
 ### Community
 - [Member Registration](Member-Registration)
