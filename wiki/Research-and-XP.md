@@ -413,6 +413,111 @@ The DOV system is a core component of the Everstrike partnership, focusing on:
 - Voting power scaled with XP
 - Special proposal rights at XP thresholds
 
+## Research and XP System
+
+## Overview
+The SKENAI ecosystem uses Experience Points (XP) to measure and reward contributions. This system integrates with the [GFORCE Framework](GFORCE-Framework) to create a comprehensive value attribution system.
+
+## XP Components
+
+### 1. Base Structure
+```typescript
+interface XPReward {
+  base: number;
+  track: GFORCETrack;
+  level: number;
+  quality: QualityMetrics;
+  multipliers: RewardMultipliers;
+}
+
+interface QualityMetrics {
+  technical: number;
+  documentation: number;
+  implementation: number;
+  value: number;
+}
+```
+
+### 2. Track System
+See [GFORCE Framework](GFORCE-Framework) for detailed track information:
+- Genesis (G): 1.0x
+- Fractal (F): 1.5x
+- Operations (O): 1.2x
+- Research (R): 2.0x
+- Community (C): 1.3x
+- Evolution (E): 2.5x
+
+### 3. Level System
+- L0: Base level (1.0x)
+- L1: Advanced (1.5x)
+- L2: Expert (2.0x)
+- L3: Master (3.0x)
+
+## Reward Calculation
+
+### 1. Base Formula
+```typescript
+totalXP = baseXP * trackMultiplier * levelMultiplier * qualityMultiplier
+```
+
+### 2. Quality Metrics
+- Technical accuracy: 0-1000 XP
+- Documentation quality: 0-1000 XP
+- Implementation feasibility: 0-1000 XP
+- Value creation: 0-2000 XP
+
+### 3. Bonus Multipliers
+- First in track: 1.5x
+- Pattern recognition: 1.2x
+- Value optimization: 1.3x
+- System evolution: 1.5x
+
+## Integration
+
+### 1. Token System
+- XP to token conversion
+- Value attribution
+- Reward distribution
+- Growth incentives
+
+### 2. Achievement System
+- Track mastery
+- Level progression
+- Quality milestones
+- Value creation
+
+### 3. Growth Path
+- Expertise development
+- Pattern recognition
+- Value acceleration
+- System evolution
+
+## Best Practices
+
+### 1. XP Optimization
+- Focus on quality
+- Build expertise
+- Create value
+- Recognize patterns
+
+### 2. Track Progress
+- Master fundamentals
+- Progress through levels
+- Develop expertise
+- Create impact
+
+### 3. Value Creation
+- Technical excellence
+- Clear documentation
+- Feasible implementation
+- Measurable impact
+
+## Related Components
+- [GFORCE Framework](GFORCE-Framework) - Track system
+- [Token System Implementation](Token-System-Implementation) - Value system
+- [Pattern Recognition](Pattern-Recognition) - Analysis system
+- [Evolution Framework](Evolution-Framework) - Growth system
+
 ## Resources
 - [GFORCE Standard](G-L0-004-GFORCE.md)
 - [XP System Proposal](G-L1-051-XP-SYSTEM.md)

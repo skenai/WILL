@@ -14,13 +14,8 @@ set "msg=!msg! %~1"
 goto loop
 :endloop
 
-REM Stage and commit changes in main repo
-git add wiki/
-git commit -m "!msg!"
-git push origin gh-pages
-
-REM Update wiki repo
-cd ..\WILL.wiki
+REM Stage and commit changes in wiki directory
+cd wiki
 git add .
 git commit -m "!msg!"
 git push origin master
