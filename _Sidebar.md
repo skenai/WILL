@@ -1,38 +1,42 @@
 # Documentation
 
-### SKENAI Core
+### Core Components
 - [Home](Home)
+- [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - [GFORCE Framework](GFORCE-Framework)
-- [Token System Implementation](Token-System-Implementation)
-- [Social Integration](Social-Integration)
-- [WillChat Component](WillChat-Component)
-- [GitHub Integration](GitHub-Integration)
-- [Research and XP](Research-and-XP)
-
-### WILL Core Systems
-- [Architecture](Architecture)
-- [Token System](Token-System)
-- [Training System](Training-System)
 - [Pattern Recognition](Pattern-Recognition)
-- [Circuits & Mesh](Circuits-Mesh)
+- [WillChat Component](WillChat-Component)
+
+### System Architecture
+- [Technical Implementation](Technical-Implementation)
+- [Research and XP](Research-and-XP)
+- [Token System](Token-System)
 - [Dual Framework Theory](Dual-Framework-Theory)
-- [Governance Proposals](Governance-Proposals)
+- [Circuits & Mesh](Circuits-Mesh)
+- [Edge Runtime](Edge-Runtime)
+
+### Validation & Security
+- [Validation Framework](WillChat-Component#validation-framework)
+- [Security Protocols](Technical-Implementation#security-protocols)
+- [Health Check System](Health-Check-System)
+- [Quality Metrics](WillChat-Component#quality-metrics)
 
 ### Integration
-- [API Documentation](API-Documentation)
-- [Integration Guide](Integration-Guide)
-- [Telegram Integration](Telegram-Integration)
-- [Edge Runtime](Edge-Runtime)
-- [Health Check System](Health-Check-System)
+- [API Documentation](API)
+- [SDK Guide](SDK)
+- [Integration Examples](Examples)
+- [GitHub Integration](GitHub-Integration)
+- [Social Integration](Social-Integration)
+
+### Developer Resources
+- [Quick Start](QuickStart)
+- [Best Practices](BestPractices)
+- [Development Process](Development)
+- [Testing Guide](Testing)
 
 ### Community
-- [Member Registration](Member-Registration)
+- [Support Resources](Support)
+- [Community Forums](Community)
 - [Contributing](Contributing)
-- [FAQ](FAQ)
-- [Community Guidelines](Community-Guidelines)
-
-### Development
-- [Security and Testing](Security-and-Testing)
-- [Roadmap](Roadmap)
-- [Everstrike Partnership](Everstrike-Partnership)
-- [EVS Token Integration](EVS-Token-Integration)
+- [Code of Conduct](CodeOfConduct)
+- [FAQs](FAQ)
