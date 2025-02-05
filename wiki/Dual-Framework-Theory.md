@@ -1,189 +1,141 @@
-# SKENAI's Framework Architecture: GFORCE, Circuits & Mesh Networks
+# SKENAI: The Camera Framework
 
 ## Abstract
 
-SKENAI's power emerges from the synergy of three complementary frameworks: GFORCE (Governance Framework for Organizational Research and Collaborative Engagement), Circuit Control, and Mesh Networks. This document explores how these frameworks work together to create a complete system for value creation, preservation, and evolution.
+SKENAI functions as a sophisticated lens for observing, understanding, and working with value flows. Like a camera, it captures reality without distorting it, enabling clear vision of patterns, networks, and opportunities.
 
-## Core Frameworks
+## Core Components
 
-### GFORCE: The Organizational Framework
-GFORCE provides the structural backbone of SKENAI, organizing all activities into clear tracks:
-
+### The Camera: Pure Observation
 ```yaml
-Genesis (G):
-  - Core system development
-  - Foundation building
-  - Initial pattern creation
-  - System initialization
-
-Fractal (F):
-  - Pattern replication
-  - System scaling
-  - Network growth
-  - Value multiplication
-
-Operations (O):
-  - System maintenance
-  - Network operations
-  - Quality assurance
-  - Sustainability
-
-Research (R):
-  - Pattern investigation
-  - System analysis
-  - Innovation discovery
-  - Knowledge creation
-
-Community (C):
-  - User engagement
-  - Network participation
-  - Value distribution
-  - Social growth
-
-Evolution (E):
-  - System improvement
-  - Pattern evolution
-  - Network adaptation
-  - Value optimization
-```
-
-### Circuit Control: The Value Framework
-While GFORCE organizes, Circuits control and optimize value flows:
-
-```yaml
-Control Systems:
-  - Value flow monitoring
+Purpose:
+  - See truth clearly
+  - Track patterns accurately
+  - Understand flows deeply
+  
+Function:
+  - Direct observation
   - Pattern recognition
-  - Performance optimization
-  - Circuit protection
-
-Integration:
-  - Track mapping
-  - Flow routing
-  - Pattern detection
-  - System optimization
+  - Truth verification
 ```
 
-### Mesh Network: The Connection Framework
-The Mesh Network layer enables value multiplication through interconnection:
+### The Foundation: Value Flow
+```yaml
+Structure:
+  - Network access
+  - Information edge
+  - Time advantage
+  
+Operation:
+  - Steady flow
+  - Sustainable growth
+  - Long-term value
+```
 
+### The Network: Pattern Recognition
 ```yaml
 Components:
-  - Circuit interconnections
-  - Value multiplication nodes
-  - Pattern propagation paths
-  - Network optimization
-
+  - AI validation
+  - ZK proofs
+  - Cross-chain bridges
+  
 Features:
-  - Dynamic routing
-  - Value amplification
-  - Pattern recognition
+  - Pattern detection
   - Flow optimization
+  - Risk assessment
 ```
 
-## Framework Integration
+## System Integration
 
-### How They Work Together
+### Measurement Tools
 
-1. **Organizational Synergy**
+1. **Internal Metrics**
    ```yaml
-   GFORCE Track → Circuit → Mesh:
-     Genesis → Circuit Creation → Network Foundation
-     Fractal → Circuit Replication → Network Growth
-     Operations → Circuit Maintenance → Network Stability
-     Research → Circuit Innovation → Network Evolution
-     Community → Circuit Validation → Network Participation
-     Evolution → Circuit Optimization → Network Enhancement
+   XP: Track contribution
+   SHIBAK: Enable participation
+   BSTBL: Maintain stability
    ```
 
-2. **Value Flow**
+2. **Market Instruments**
    ```yaml
-   Circuit Role → GFORCE Impact:
-     Flow Control → Research Track
-     Value Optimization → Operations Track
-     Pattern Recognition → Genesis Track
-     Performance Enhancement → Evolution Track
+   SBX: Network ownership
+   SBV: Governance rights
+   EVS: Options/derivatives
    ```
 
-3. **System Components**
+3. **Value Indicators**
    ```yaml
-   GFORCE + Circuit + Mesh:
-     Proposals + Flow Control + Network Effects
-     Governance + Value Optimization + Interconnection
-     Research + Pattern Recognition + Propagation
-     Community + Value Distribution + Multiplication
+   Proposals: Pattern emergence
+   Networks: Flow strength
+   Markets: Value consensus
    ```
 
 ## Practical Applications
 
-### 1. Development Process
-- GFORCE provides the organizational structure
-- Circuits control value flows
-- Mesh enables value multiplication
+### 1. Information Edge
+- Early pattern recognition
+- Network signal detection
+- Flow trend analysis
 
-### 2. Network Growth
-- GFORCE scales the organization
-- Circuits optimize value flows
-- Mesh multiplies network effects
+### 2. Network Access
+- Foundation-style membership
+- Professional services
+- Enterprise solutions
 
-### 3. Value Creation
-- GFORCE organizes the creation process
-- Circuits control and protect value
-- Mesh enables value multiplication
-
-## The Complete SKENAI Story
-
-SKENAI exists to create and preserve clean money through the combination of:
-
-1. **Organizational Excellence (GFORCE)**
-   - Clear structure
-   - Defined processes
-   - Measurable growth
-   - Community engagement
-
-2. **Value Control (Circuits)**
-   - Flow optimization
-   - Pattern recognition
-   - Performance monitoring
-   - System protection
-
-3. **Network Effects (Mesh)**
-   - Value multiplication
-   - Pattern propagation
-   - Network optimization
-   - System synergy
+### 3. Time Advantage
+- Early opportunity detection
+- Strategic positioning
+- Optimal timing
 
 ## Implementation Strategy
 
-### Phase 1: Foundation
-- Establish GFORCE tracks
-- Deploy Circuit controls
-- Initialize Mesh network
-- Train AI agents
+### Phase 1: Infrastructure
+- AI validation system
+- ZK proof layer
+- Cross-chain bridges
 
-### Phase 2: Growth
-- Scale through GFORCE
-- Optimize Circuits
-- Expand Mesh network
-- Enhance systems
+### Phase 2: Network
+- Proposal scaling (100k+)
+- Automated routing
+- Risk assessment
 
-### Phase 3: Evolution
-- Adapt frameworks
-- Evolve patterns
-- Improve integration
-- Maximize value
+### Phase 3: Market
+- SBX launch
+- Lending markets
+- Options vaults
+
+## Business Model
+
+### Service Tiers
+1. **Network Access**
+   - Foundation membership
+   - Annual subscription
+   - Basic tools
+
+2. **Professional Tools**
+   - Pattern recognition
+   - Signal detection
+   - Advanced analytics
+
+3. **Enterprise Solutions**
+   - Custom implementation
+   - Private networks
+   - Dedicated support
 
 ## Conclusion
 
-SKENAI's three-layer framework approach creates a complete system for clean money:
-- GFORCE provides the organizational structure
-- Circuits control value flows
-- Mesh enables value multiplication
+SKENAI operates like a sophisticated camera for value:
+- Sees patterns clearly
+- Tracks flows accurately
+- Enables understanding deeply
 
-This architecture ensures that SKENAI not only creates value efficiently but also optimizes and multiplies it effectively, leading to sustainable growth and evolution of the network.
+This creates sustainable value through:
+- Real service (information edge)
+- Real network (foundation model)
+- Real growth (time advantage)
 
 ## References
-- [GFORCE Standard](G-L0-004-GFORCE.md)
-- [Circuit & Mesh Networks](Circuits-Mesh.md)
-- [Pattern Recognition](Pattern-Recognition.md)
+- [Camera Framework](Camera-Framework.md)
+- [Foundation Model](Foundation-Model.md)
+- [Network Effects](Network-Effects.md)
 - [SKENAI Whitepaper](../../WHITEPAPER.md)
