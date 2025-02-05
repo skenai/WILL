@@ -27,12 +27,12 @@ async function createProposal() {
 
 ### 2. Value Analysis
 ```typescript
-// Analyze value in 3D space
+// Analyze value
 async function analyzeValue() {
   const value = await will.calculateValue({
-    economic: 0.5,  // Short-term value
-    network: 0.7,   // Long-term value
-    feasibility: 0.9 // Implementation score
+    economic: 0.5,
+    network: 0.7,
+    feasibility: 0.9
   });
   
   return value;

@@ -48,28 +48,28 @@ const patterns = await will.analyzePatterns({
 
 ## Mathematical Framework
 
-### 1. Value Space
+### 1. Value Analysis
 ```typescript
 interface ValueSpace {
-  economic: number;   // Short-term value [-1, 1]
-  network: number;    // Long-term value [-1, 1]
-  feasibility: number; // Implementation score [0, 1]
+  economic: number;  // [-1, 1]
+  network: number;   // [-1, 1]
+  feasibility: number; // [0, 1]
 }
 
-// Calculate value density
-const density = await will.calculateValueDensity({
-  point: { x: 0.5, y: 0.7, z: 0.9 },
-  mean: [0.6, 0.6, 0.8],
-  covariance: [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+// Analyze value
+const value = await will.calculateValue({
+  economic: 0.5,
+  network: 0.7,
+  feasibility: 0.9
 });
 ```
 
-### 2. Pattern Recognition
+### 2. Pattern Analysis
 ```typescript
 interface Pattern {
   type: string;
   confidence: number;
-  value: ValueSpace;
+  impact: ValueSpace;
   relationships: string[];
 }
 
