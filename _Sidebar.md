@@ -2,9 +2,10 @@
 
 ### Core Components
 - [Home](Home)
-- [Mathematical Framework](Technical-Implementation#value-ranking-system)
+- [MDAG Overview](MDAG-Overview)
 - [GFORCE Framework](GFORCE-Framework)
 - [Pattern Recognition](Pattern-Recognition)
+- [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - [WillChat Component](WillChat-Component)
 
 ### System Architecture
