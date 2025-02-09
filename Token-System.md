@@ -26,6 +26,20 @@ SKENAI uses a sophisticated set of measurement tools to track, validate, and ena
    - Implementation: Algorithmic control
    - Status: Development Q1 2025
 
+### Parallel Token Systems
+
+1. **GEN (Genesis Token)**
+   - Purpose: Core protocol value and stability
+   - Features: Base mechanics, foundational patterns
+   - Implementation: Protocol-driven stability
+   - Status: Development Q1 2025
+
+2. **EVO (Evolution Token)**
+   - Purpose: Protocol evolution and adaptation
+   - Features: Dynamic growth, natural selection
+   - Implementation: Emergent patterns
+   - Status: Development Q1 2025
+
 ### Market Instruments
 
 1. **SBX (Network Value)**
@@ -84,6 +98,56 @@ Measurement Layers:
     - Custom implementations
     - Private network metrics
     - Dedicated analytics
+```
+
+## Advanced Mechanics
+
+### 1. Staking & Value Flow
+```yaml
+Components:
+  Staking Mechanics:
+    - Dynamic Opportunity Value (DOV)
+    - Time-weighted positions
+    - Quality-driven rewards
+    - Pattern recognition multipliers
+    
+  Flow Optimization:
+    - Cross-system balancing
+    - Natural emergence paths
+    - Adaptive routing
+    - Quality validation gates
+```
+
+### 2. DEX Integration
+```yaml
+Everstrike Integration:
+  Core Features:
+    - Automated market making
+    - Cross-chain bridging
+    - Pattern-based routing
+    - Quality-weighted pools
+
+  Value Mechanics:
+    - DOV-based pricing
+    - Dynamic fee adjustment
+    - Pattern recognition rewards
+    - Quality validation gates
+```
+
+### 3. AI-Driven Optimization
+```yaml
+Components:
+  Pattern Detection:
+    - Flow analysis
+    - Value clustering
+    - Quality assessment
+    - Natural emergence
+
+  Dynamic Adaptation:
+    - Route optimization
+    - Fee calibration
+    - Pool rebalancing
+    - Quality maintenance
 ```
 
 ## Implementation Strategy
