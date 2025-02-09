@@ -26,6 +26,20 @@ SKENAI uses a sophisticated set of measurement tools to track, validate, and ena
    - Implementation: Algorithmic control
    - Status: Development Q1 2025
 
+### Parallel Token Systems
+
+1. **GEN (Genesis Token)**
+   - Purpose: Core protocol value and stability
+   - Features: Base mechanics, foundational patterns
+   - Implementation: Protocol-driven stability
+   - Status: Development Q1 2025
+
+2. **EVO (Evolution Token)**
+   - Purpose: Protocol evolution and adaptation
+   - Features: Dynamic growth, natural selection
+   - Implementation: Emergent patterns
+   - Status: Development Q1 2025
+
 ### Market Instruments
 
 1. **SBX (Network Value)**
