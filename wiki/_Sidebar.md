@@ -12,6 +12,8 @@
 - [Technical Implementation](Technical-Implementation)
 - [Research and XP](Research-and-XP)
 - [Token System](Token-System)
+- [Advanced Mechanics](Token-System#advanced-mechanics)
+- [AI Integration](WILL-System#ai-integration)
 - [Parallel Systems](WILL-System#parallel-systems-architecture)
 - [Dual Framework Theory](Dual-Framework-Theory)
 - [Circuits & Mesh](Circuits-Mesh)
