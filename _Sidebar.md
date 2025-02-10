@@ -8,6 +8,14 @@
 - [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - [WillChat Component](WillChat-Component)
 
+### Evolution Framework
+- [GEN-EVO Overview](GEN-EVO/README)
+- [NATURAL System](GEN-EVO/NATURAL)
+- [FLOW Engine](GEN-EVO/FLOW)
+- [GRAPH System](GEN-EVO/GRAPH)
+- [AIQ Framework](GEN-EVO/AIQ)
+- [AI-Human Synergy](GEN-EVO/AI-Human-Synergy)
+
 ### System Architecture
 - [Technical Implementation](Technical-Implementation)
 - [Research and XP](Research-and-XP)
