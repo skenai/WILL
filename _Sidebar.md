@@ -9,7 +9,7 @@
 - [WillChat Component](WillChat-Component)
 
 ### Evolution Framework
-- [GEN-EVO Overview](GEN-EVO/README)
+- [GEN-EVO Overview](GEN-EVO)
 - [NATURAL System](GEN-EVO/NATURAL)
 - [FLOW Engine](GEN-EVO/FLOW)
 - [GRAPH System](GEN-EVO/GRAPH)
