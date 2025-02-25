@@ -31,6 +31,11 @@
 * [Quality Metrics](Quality-Metrics)
 * [Security Protocols](Security-Protocols)
 
+## Market Analysis
+* [Market Overview](Market-Overview)
+* [Target Segments](Target-Segments)
+* [Growth Strategy](Growth-Strategy)
+
 ## Community
 * [Contributing Guide](Contributing)
 * [Support](Support)
