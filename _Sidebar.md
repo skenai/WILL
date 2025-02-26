@@ -8,13 +8,11 @@
 - [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - [WillChat Component](WillChat-Component)
 
-### Evolution Framework
-- [GEN-EVO Overview](GEN-EVO)
-- [NATURAL System](GEN-EVO-NATURAL)
-- [FLOW Engine](GEN-EVO-FLOW)
-- [GRAPH System](GEN-EVO-GRAPH)
-- [AIQ Framework](GEN-EVO-AIQ)
-- [AI-Human](GEN-EVO-AI-Human)
+### System Evolution
+- [SKENAI Evolution](SKENAI-Evolution)
+- [Three-Stage Architecture](Three-Stage-Architecture)
+- [WILL System](WILL-System)
+- [Governance Framework](Governance-Framework)
 
 ### System Architecture
 - [Technical Implementation](Technical-Implementation)
@@ -28,10 +26,11 @@
 - [Edge Runtime](Edge-Runtime)
 
 ### Validation & Security
-- [Validation Framework](WillChat-Component#validation-framework)
+- [Proposal Validation](Proposal-Validation)
 - [Security Protocols](Technical-Implementation#security-protocols)
 - [Health Check System](Health-Check-System)
 - [Quality Metrics](WillChat-Component#quality-metrics)
+- [Backup Strategy](Backup-Strategy)
 
 ### Integration
 - [API Documentation](API)
