@@ -1,35 +1,60 @@
 # WILL Architecture Overview
 
-## System Architecture
+## Design Principles
 
-WILL's architecture is designed with the following key principles:
-- Modularity
-- Scalability
-- Security
-- Decentralization
+WILL's architecture follows these key principles:
+- Modularity: Flexible agent integration
+- Scalability: Support for growing network
+- Security: Protected validation pipeline
+- Standardization: Clear interface contracts
 
-### Core Components
+## Pipeline Architecture
 
-1. **Social Intelligence Layer**
-   - Twitter Integration
-   - Community Analysis
-   - Sentiment Processing
+### 1. Core Validation Layer (90%)
+- Proposal submission
+- Structure validation
+- Format checking
+- Content verification
 
-2. **Governance Interface**
-   - DAO Integration
-   - Proposal Processing
-   - Voting Mechanisms
+### 2. Pattern Recognition (9%)
+- Efficiency analysis
+- Pattern matching
+- Quality metrics
+- Improvement recommendations
 
-3. **Learning Engine**
-   - Pattern Recognition
-   - Adaptive Behavior
-   - Knowledge Synthesis
-
-4. **Security Layer**
-   - Authentication
-   - Authorization
-   - Data Privacy
+### 3. Governance Layer (1%)
+- Status tracking
+- Vote management
+- Decision recording
+- State transitions
 
 ## Integration Points
 
-Detailed documentation about integration points will be added as they are finalized.
+### Agent Integration
+- Standard API endpoints
+- Authentication flow
+- Rate limiting
+- Error handling
+
+### Pipeline Flow
+[Agent] -> Submit -> Validate -> Analyze -> Vote -> [Decision]
+
+### Security Model
+- Agent identification
+- Request validation
+- Access control
+- Audit logging
+
+## Development Standards
+
+### API Guidelines
+- RESTful endpoints
+- JSON payloads
+- Standard HTTP codes
+- Detailed error messages
+
+### SDK Support
+- Official implementations
+- Example integrations
+- Testing tools
+- Documentation
