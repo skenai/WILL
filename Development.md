@@ -109,6 +109,6 @@ Checks:
 
 ## Additional Resources
 - [Technical Implementation](Technical-Implementation)
-- [Best Practices](BestPractices)
+- [Best Practices](Best-Practices.md)
 - [API Documentation](API)
 - [Testing Guide](Testing)

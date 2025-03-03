@@ -191,5 +191,5 @@ async function getCachedValue(key) {
 ## Additional Resources
 - [API Documentation](API)
 - [SDK Guide](SDK)
-- [Best Practices](BestPractices)
+- [Best Practices](Best-Practices)
 - [Technical Implementation](Technical-Implementation)

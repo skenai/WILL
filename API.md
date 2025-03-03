@@ -129,5 +129,5 @@ try {
 ## Additional Resources
 - [SDK Guide](SDK)
 - [Integration Examples](Examples)
-- [Best Practices](BestPractices)
 - [Technical Implementation](Technical-Implementation)
+- [Best Practices](Best-Practices)

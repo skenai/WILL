@@ -35,7 +35,7 @@ const proposal = await will.createProposal({
 
 ### 3. Next Steps
 1. Explore the [Technical Implementation](Technical-Implementation)
-2. Review [Best Practices](BestPractices)
+2. Review [Best Practices](https://sken.ai/best-practices)
 3. Join our [Community](Community)
 
 ## Common Use Cases

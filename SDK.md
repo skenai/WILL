@@ -180,5 +180,5 @@ will.enableSecurity({
 ## Additional Resources
 - [API Documentation](API)
 - [Integration Examples](Examples)
-- [Best Practices](BestPractices)
+- [Best Practices](Best-Practices)
 - [Technical Implementation](Technical-Implementation)

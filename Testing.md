@@ -131,6 +131,6 @@ const testConfig = {
 
 ## Additional Resources
 - [Development Process](Development)
-- [Best Practices](BestPractices)
+- [Best Practices](Best-Practices)
 - [Technical Implementation](Technical-Implementation)
 - [API Documentation](API)
