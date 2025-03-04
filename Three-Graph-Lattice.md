@@ -1,3 +1,31 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, graph-theory, lattice, three-stage]
+related:
+  - WILL-System.md
+  - System-Architecture.md
+  - Pattern-Recognition.md
+  - NATURAL-Framework.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+      - "MAJOR: Refined lattice theory"
+    references:
+      - "System-Architecture"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial lattice documentation"
+    references:
+      - "Pattern-Recognition"
+---
+
 # Three-Graph Lattice Network
 
 ## Overview
@@ -102,9 +130,6 @@ interface IPatternRecognition {
 
 ## Three-Graph Lattice
 
-[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
-[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
-
 The Three-Graph Lattice is a core component of WILL v2.0.0, enabling sophisticated pattern recognition and cross-domain optimization.
 
 ## Graph Components
@@ -198,7 +223,6 @@ The Three-Graph Lattice integrates with the NATURAL Framework through:
 - Introduced in v2.0.0
 - Required for all new implementations
 - [Migration Guide](versions/MIGRATION-1.0.0-to-2.0.0)
-
 
 ## Pipeline API Integration
 - /pipeline/submit - Entry point

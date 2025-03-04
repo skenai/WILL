@@ -1,3 +1,30 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: guide-doc
+status: public
+tags: [william, contributing, guidelines, development]
+related:
+  - WILL-System.md
+  - System-Architecture.md
+  - Best-Practices.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+      - "MAJOR: Updated contribution guidelines"
+    references:
+      - "Best-Practices"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial contribution guidelines"
+    references:
+      - "WILL-System"
+---
+
 # Contributing to WILL Documentation
 
 ## Wiki Structure
@@ -289,8 +316,3 @@ Description:
 - /pipeline/patterns - Recognition (Q.2)
 - /pipeline/status - State checks
 - /pipeline/vote - Governance
-
-## Integration with Three-Graph Lattice
-- Technical graph validation
-- Economic resource optimization
-- Quality metrics tracking

@@ -1,3 +1,31 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, system, core, framework]
+related:
+  - NATURAL-Framework.md
+  - System-Architecture.md
+  - Three-Graph-Lattice.md
+  - Pattern-Recognition.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+      - "MAJOR: System architecture updates"
+    references:
+      - "System-Architecture"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial system documentation"
+    references:
+      - "NATURAL-Framework"
+---
+
 # WILL System Overview
 
 ## Core Components
@@ -338,35 +366,6 @@ class SystemEvolution:
 - Value creation
 - Sustainable scaling
 
----
-version: 2.0.0
-date: 2025-03-04
-type: system-doc
-status: public
-tags: [william, system, framework]
-related:
-  - Three-Stage-Architecture.md
-  - SKENAI-Evolution.md
-  - Pattern-Recognition.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Enhanced three-stage integration"
-      - "MAJOR: Improved system coordination"
-      - "MAJOR: Stage-specific system flows"
-      - "MAJOR: Advanced processing patterns"
-    references:
-      - "WILL-System"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Basic system framework"
-      - "MAJOR: Initial system coordination"
-    references:
-      - "GFORCE-Framework"
----
-
 ## Integration with NATURAL Framework
 - Clean repository separation
 - Natural pipeline flow
@@ -380,8 +379,3 @@ changelog:
 - /pipeline/patterns - Recognition (Q.2)
 - /pipeline/status - State checks
 - /pipeline/vote - Governance
-
-## Integration with Three-Graph Lattice
-- Technical graph validation
-- Economic resource optimization
-- Quality metrics tracking

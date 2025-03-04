@@ -1,7 +1,32 @@
-# System Architecture
+---
+version: 2.0.0
+date: 2025-03-04
+type: architecture-doc
+status: public
+tags: [william, architecture, system-design, three-stage]
+related:
+  - WILL-System.md
+  - Three-Graph-Lattice.md
+  - NATURAL-Framework.md
+  - Pattern-Recognition.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+      - "MAJOR: Three-stage architecture refinements"
+    references:
+      - "Three-Graph-Lattice"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial architecture documentation"
+    references:
+      - "WILL-System"
+---
 
-[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
-[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
+# System Architecture
 
 WILL v2.0.0 implements a clean, three-tier architecture following the Market Coordination Protocol (MCP) standard.
 

@@ -1,3 +1,30 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, pattern-recognition, intelligence, evolution]
+related:
+  - WILL-System.md
+  - Three-Graph-Lattice.md
+  - NATURAL-Framework.md
+  - System-Architecture.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+      - "MAJOR: Advanced pattern recognition"
+    references:
+      - "Three-Graph-Lattice"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial pattern recognition system"
+    references:
+      - "NATURAL-Framework"
+
 # Pattern Recognition Framework
 
 ## Overview
@@ -242,35 +269,7 @@ For detailed technical specifications, please refer to:
 - [GFORCE Standard](1-G-L0-004-GFORCE)
 - [Mathematical Framework](1-G-L0-018-SP1-MATH)
 
----
-version: 2.0.0
-date: 2025-03-04
-type: system-doc
-status: public
-tags: [william, pattern, recognition]
-related:
-  - WILL-System.md
-  - Three-Stage-Architecture.md
-  - INTELLIGENCE-Network.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Three-stage pattern integration"
-      - "MAJOR: Enhanced recognition system"
-      - "MAJOR: Stage-specific pattern flows"
-      - "MAJOR: Improved detection framework"
-    references:
-      - "WILL-System"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Basic pattern framework"
-      - "MAJOR: Initial recognition system"
-    references:
-      - "GFORCE-Framework"
-
-# Pattern Recognition
+## Pattern Recognition
 
 ## Overview
 
@@ -327,8 +326,3 @@ The Pattern Recognition system implements WILLIAM's pattern detection and analys
 - /pipeline/patterns - Recognition (Q.2)
 - /pipeline/status - State checks
 - /pipeline/vote - Governance
-
-## Integration with Three-Graph Lattice
-- Technical graph validation
-- Economic resource optimization
-- Quality metrics tracking
