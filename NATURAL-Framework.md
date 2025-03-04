@@ -1,6 +1,6 @@
 ---
-version: 1.0.0
-date: 2025-03-03
+version: 2.0.0
+date: 2025-03-04
 type: framework-doc
 status: public
 tags: [william, natural, framework]
@@ -9,6 +9,12 @@ related:
   - Pattern-Recognition.md
   - LEGEND-System.md
 changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Enhanced framework documentation"
+    references:
+      - "WILL-System"
   - version: 1.0.0
     date: 2025-03-03
     changes:
@@ -24,9 +30,14 @@ changelog:
       - "MAJOR: Initial intelligence"
     references:
       - "Pattern-Recognition"
----
 
 # NATURAL Framework
+
+[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
+[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
+
+> **Version Notice**: This documentation is for WILL v2.0.0. For older versions:
+> - [v1.0.0 Documentation](https://github.com/shibakery/WILL/tree/v1.0.0/versions/v1.0.0)
 
 ## Overview
 
