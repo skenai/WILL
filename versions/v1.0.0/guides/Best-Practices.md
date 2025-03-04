@@ -28,9 +28,9 @@ This guide outlines the best practices for developing, maintaining, and operatin
 
 ### 1. Code Quality
 ```
-[Planning] → [Implementation] → [Review] → [Testing]
-     ↑             ↕              ↕           ↓
-[Feedback] ← [Documentation] ← [QA] ← [Deployment]
+[Planning] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Implementation] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Review] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Testing]
+     ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ             ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢              ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Feedback] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Documentation] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [QA] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Deployment]
 ```
 
 #### Style Guidelines
@@ -141,9 +141,9 @@ Best Practices:
 
 ### 1. Testing Strategy
 ```
-[Unit] → [Integration] → [System] → [Acceptance]
-   ↑          ↕            ↕           ↓
-[Dev] ← [QA Review] ← [UAT] ← [Production]
+[Unit] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Integration] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [System] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Acceptance]
+   ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢            ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Dev] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [QA Review] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [UAT] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Production]
 ```
 
 ### 2. Performance Testing

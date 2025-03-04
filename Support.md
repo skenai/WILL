@@ -28,9 +28,9 @@ The Support system provides comprehensive assistance and resources for users, de
 
 ### 1. Community Support
 ```
-[Forums] → [Chat] → [Documentation] → [FAQs]
-    ↑         ↕           ↕             ↓
-[Issues] ← [Wiki] ← [Guides] ← [Knowledge Base]
+[Forums] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Chat] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Documentation] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [FAQs]
+    ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢             ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Issues] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Wiki] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Guides] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Knowledge Base]
 ```
 
 #### Forums
@@ -104,9 +104,9 @@ The Support system provides comprehensive assistance and resources for users, de
 
 ### 1. Issue Resolution
 ```
-[Submit] → [Triage] → [Investigate] → [Resolve]
-    ↑         ↕           ↕             ↓
-[Update] ← [Track] ← [Test] ← [Document]
+[Submit] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Triage] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Investigate] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Resolve]
+    ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢             ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Update] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Track] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Test] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Document]
 ```
 
 ### 2. Knowledge Management

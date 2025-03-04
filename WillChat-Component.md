@@ -18,35 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 2.0.0
-date: 2025-03-04
-type: component-doc
-status: public
-tags: [william, chat, component]
-related:
-  - WILL-System.md
-  - Three-Stage-Architecture.md
-  - Pattern-Recognition.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Enhanced three-stage integration"
-      - "MAJOR: Improved chat coordination"
-      - "MAJOR: Stage-specific chat flows"
-      - "MAJOR: Advanced chat patterns"
-    references:
-      - "WILL-System"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Basic chat framework"
-      - "MAJOR: Initial chat coordination"
-    references:
-      - "GFORCE-Framework"
----
-
 # WillChat Component
 
 ## Overview

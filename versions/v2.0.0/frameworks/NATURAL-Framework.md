@@ -18,34 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 1.0.0
-date: 2025-03-03
-type: framework-doc
-status: public
-tags: [william, natural, framework]
-related:
-  - WILL-System.md
-  - Pattern-Recognition.md
-  - LEGEND-System.md
-changelog:
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Enhanced natural system framework"
-      - "MAJOR: Improved market intelligence"
-      - "MAJOR: Advanced pattern recognition"
-    references:
-      - "WILL-System"
-  - version: 0.2.0
-    date: 2025-03-01
-    changes:
-      - "MAJOR: Basic natural system"
-      - "MAJOR: Initial intelligence"
-    references:
-      - "Pattern-Recognition"
----
-
 # NATURAL Framework
 
 ## Overview

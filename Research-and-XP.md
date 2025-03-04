@@ -123,7 +123,7 @@ Levels:
 ### 1. Proposal Creation and Implementation
 ```yaml
 Base Rewards:
-  Creation: Track Base × Level Multiplier × Quality
+  Creation: Track Base ÃƒÆ’Ã¢â‚¬â€ Level Multiplier ÃƒÆ’Ã¢â‚¬â€ Quality
   Implementation: 100% of base XP
   Major Contribution: 50% of base XP
   Minor Contribution: 25% of base XP

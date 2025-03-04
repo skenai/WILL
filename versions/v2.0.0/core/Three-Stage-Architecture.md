@@ -18,34 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 1.0.0
-date: 2025-03-03
-type: architecture-doc
-status: public
-tags: [william, architecture, pipeline]
-related:
-  - System-Overview.md
-  - NATURAL-Framework.md
-  - Pattern-Recognition.md
-changelog:
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Enhanced pattern validation pipeline"
-      - "MAJOR: Improved market signal processing"
-      - "MAJOR: Advanced quality control system"
-    references:
-      - "WILL-System"
-  - version: 0.2.0
-    date: 2025-03-01
-    changes:
-      - "MAJOR: Initial three-stage pipeline"
-      - "MAJOR: Basic quality metrics"
-    references:
-      - "GFORCE-Framework"
----
-
 # Three-Stage Architecture
 
 ## Overview

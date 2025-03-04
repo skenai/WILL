@@ -18,24 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 1.0.0
-date: 2025-03-03
-type: framework
-status: public
-tags: [quantum, validation, framework, market]
-changelog:
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "INITIAL: Market-focused validation framework"
-      - "INITIAL: Resource optimization principles"
-      - "INITIAL: Natural market dynamics"
-    references:
-      - "System-Overview"
-      - "NATURAL-Framework"
----
-
 # QUANTUM Framework
 
 ## Introduction

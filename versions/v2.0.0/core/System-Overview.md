@@ -18,48 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 1.1.0
-date: 2025-03-03
-type: system-overview
-status: public
-tags: [william, architecture, framework, quantum]
-changelog:
-  - version: 1.1.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Added quantum-inspired validation (QUIVR)"
-      - "MAJOR: Enhanced energy-based state management"
-      - "MAJOR: Improved natural transition pathways"
-    references:
-      - "QUIVR-Framework"
-      - "QUANTUM-Framework"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Enhanced pattern recognition capabilities"
-      - "MAJOR: Improved natural language processing"
-      - "MAJOR: Advanced market signal coordination"
-      - "MAJOR: Optimized resource allocation"
-    references:
-      - "WILL-System"
-      - "Three-Stage-Architecture"
-  - version: 0.2.0
-    date: 2025-03-01
-    changes:
-      - "MAJOR: Introduced advanced feedback mechanisms"
-      - "MAJOR: Enhanced system coordination"
-    references:
-      - "NATURAL-Framework"
-  - version: 0.1.0
-    date: 2025-02-28
-    changes:
-      - "INITIAL: Basic system architecture"
-      - "INITIAL: Core components"
-    references:
-      - "GFORCE-Framework"
----
-
 # WILLIAM System Overview
 
 ## Introduction

@@ -18,35 +18,9 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 2.0.0
-date: 2025-03-04
-type: system-doc
-status: public
-tags: [william, system, core, framework]
-related:
-  - NATURAL-Framework.md
-  - System-Architecture.md
-  - Three-Graph-Lattice.md
-  - Pattern-Recognition.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Switch to YAML frontmatter"
-      - "MAJOR: Enhanced metadata structure"
-      - "MAJOR: System architecture updates"
-    references:
-      - "System-Architecture"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Initial system documentation"
-    references:
-      - "NATURAL-Framework"
----
-
 # WILL System Overview
+
+WILL v2.0.0 implements a clean, three-tier architecture following the Market Coordination Protocol (MCP) standard.
 
 ## Core Components
 

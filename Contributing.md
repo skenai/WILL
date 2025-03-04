@@ -18,33 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 2.0.0
-date: 2025-03-04
-type: guide-doc
-status: public
-tags: [william, contributing, guidelines, development]
-related:
-  - WILL-System.md
-  - System-Architecture.md
-  - Best-Practices.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Switch to YAML frontmatter"
-      - "MAJOR: Enhanced metadata structure"
-      - "MAJOR: Updated contribution guidelines"
-    references:
-      - "Best-Practices"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Initial contribution guidelines"
-    references:
-      - "WILL-System"
----
-
 # Contributing to WILL Documentation
 
 ## Wiki Structure
@@ -53,14 +26,14 @@ The WILL documentation is organized using a linked repository structure:
 
 ```
 SKENAI/
-├── WILL/
-│   ├── wiki/               # Primary documentation location
-│   │   ├── *.md files     # Wiki content
-│   │   └── _Sidebar.md    # Navigation
-│   ├── docs/              # Technical documentation
-│   └── scripts/           # Utility scripts
-│       └── update-wiki.bat # Wiki update automation
-└── WILL.wiki/             # GitHub Wiki (linked to WILL/wiki)
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ WILL/
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ wiki/               # Primary documentation location
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ *.md files     # Wiki content
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ _Sidebar.md    # Navigation
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ docs/              # Technical documentation
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ scripts/           # Utility scripts
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡       ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ update-wiki.bat # Wiki update automation
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ WILL.wiki/             # GitHub Wiki (linked to WILL/wiki)
 ```
 
 ## How to Update Documentation

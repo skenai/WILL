@@ -18,35 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 2.0.0
-date: 2025-03-04
-type: architecture-doc
-status: public
-tags: [william, architecture, framework]
-related:
-  - WILL-System.md
-  - SKENAI-Evolution.md
-  - Pattern-Recognition.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Enhanced three-stage integration"
-      - "MAJOR: Improved stage coordination"
-      - "MAJOR: Stage-specific processing flows"
-      - "MAJOR: Advanced validation patterns"
-    references:
-      - "WILL-System"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Basic three-stage framework"
-      - "MAJOR: Initial stage coordination"
-    references:
-      - "GFORCE-Framework"
----
-
 # Three-Stage Architecture
 
 ## Overview

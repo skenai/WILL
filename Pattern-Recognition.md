@@ -84,9 +84,9 @@ Value Space V = (x, y, z) where:
   z = Implementation Feasibility
 
 Domain:
-  x ∈ [-∞, +∞] # Normalized to [-1, 1]
-  y ∈ [-∞, +∞] # Normalized to [-1, 1]
-  z ∈ [0, +∞]  # Normalized to [0, 1]
+  x ÃƒÂ¢Ã‹â€ Ã‹â€  [-ÃƒÂ¢Ã‹â€ Ã…Â¾, +ÃƒÂ¢Ã‹â€ Ã…Â¾] # Normalized to [-1, 1]
+  y ÃƒÂ¢Ã‹â€ Ã‹â€  [-ÃƒÂ¢Ã‹â€ Ã…Â¾, +ÃƒÂ¢Ã‹â€ Ã…Â¾] # Normalized to [-1, 1]
+  z ÃƒÂ¢Ã‹â€ Ã‹â€  [0, +ÃƒÂ¢Ã‹â€ Ã…Â¾]  # Normalized to [0, 1]
 ```
 
 ### 3. Pattern Properties
@@ -299,9 +299,9 @@ The Pattern Recognition system implements WILLIAM's pattern detection and analys
 
 ### 1. Stage 1 (SKENAI)
 ```
-[Raw] → [Initial] → [Basic]
-  ↑        ↕          ↓
-[Log] ← [Detect] ← [Check]
+[Raw] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Initial] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Basic]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ        ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Log] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Detect] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Check]
 ```
 - Raw pattern intake
 - Initial detection
@@ -311,9 +311,9 @@ The Pattern Recognition system implements WILLIAM's pattern detection and analys
 
 ### 2. Stage 2 (SKENAI-Q)
 ```
-[Deep] → [Quality] → [Validate]
-  ↑         ↕           ↓
-[Learn] ← [Assess] ← [Review]
+[Deep] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Quality] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Validate]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Learn] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Assess] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Review]
 ```
 - Pattern validation
 - Quality assessment
@@ -323,9 +323,9 @@ The Pattern Recognition system implements WILLIAM's pattern detection and analys
 
 ### 3. Stage 3 (SKENAI-R)
 ```
-[Final] → [Deploy] → [Release]
-  ↑         ↕          ↓
-[Monitor] ← [Secure] ← [Track]
+[Final] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Deploy] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Release]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Monitor] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Secure] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Track]
 ```
 - Final verification
 - Production readiness

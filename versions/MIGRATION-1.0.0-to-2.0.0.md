@@ -91,9 +91,9 @@ The NATURAL Framework is now required for all implementations:
 2. Implement NATURAL Framework:
    ```
    your-implementation/
-   ├── public/         # WILL interface
-   ├── private/        # Core validators
-   └── quality/        # Pattern analysis
+   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ public/         # WILL interface
+   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ private/        # Core validators
+   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ quality/        # Pattern analysis
    ```
 
 3. Security Updates:

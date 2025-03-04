@@ -110,9 +110,9 @@ The Governance Framework represents the foundational rules and processes that go
 
 ### 1. Stage 1 (SKENAI)
 ```
-[Submission] → [Initial Check] → [Basic Review]
-      ↑              ↕               ↓
-[Feedback] ← [Log] ← [Report]
+[Submission] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Initial Check] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Basic Review]
+      ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ              ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢               ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Feedback] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Log] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Report]
 ```
 - Raw proposal intake
 - Format validation
@@ -122,9 +122,9 @@ The Governance Framework represents the foundational rules and processes that go
 
 ### 2. Stage 2 (SKENAI-Q)
 ```
-[Intake] → [Quality Check] → [Deep Review]
-    ↑           ↕               ↓
-[Monitor] ← [Validate] ← [Assess]
+[Intake] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Quality Check] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Deep Review]
+    ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢               ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Monitor] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Validate] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Assess]
 ```
 - Detailed validation
 - Quality assessment
@@ -134,9 +134,9 @@ The Governance Framework represents the foundational rules and processes that go
 
 ### 3. Stage 3 (SKENAI-R)
 ```
-[Staging] → [Final Check] → [Production]
-    ↑           ↕              ↓
-[Monitor] ← [Deploy] ← [Release]
+[Staging] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Final Check] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Production]
+    ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢              ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Monitor] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Deploy] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Release]
 ```
 - Final verification
 - Production readiness

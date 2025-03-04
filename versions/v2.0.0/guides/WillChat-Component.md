@@ -18,34 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 1.0.0
-date: 2025-03-03
-type: component-doc
-status: public
-tags: [william, chat, interface]
-related:
-  - WILL-System.md
-  - Pattern-Recognition.md
-  - NATURAL-Framework.md
-changelog:
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Enhanced natural language understanding"
-      - "MAJOR: Improved market signal processing"
-      - "MAJOR: Advanced pattern recognition"
-    references:
-      - "WILL-System"
-  - version: 0.2.0
-    date: 2025-03-01
-    changes:
-      - "MAJOR: Basic language processing"
-      - "MAJOR: Initial pattern detection"
-    references:
-      - "NATURAL-Framework"
----
-
 # WillChat Component
 
 ## Overview

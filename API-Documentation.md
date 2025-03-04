@@ -18,35 +18,6 @@ changelog:
       - "MAJOR: Initial documentation"
     references: []
 ---
----
-version: 2.0.0
-date: 2025-03-04
-type: api-doc
-status: public
-tags: [william, api, documentation]
-related:
-  - WILL-System.md
-  - Three-Stage-Architecture.md
-  - API-Reference.md
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Three-stage API integration"
-      - "MAJOR: Enhanced endpoint system"
-      - "MAJOR: Stage-specific API flows"
-      - "MAJOR: Improved documentation framework"
-    references:
-      - "WILL-System"
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Basic API framework"
-      - "MAJOR: Initial endpoint system"
-    references:
-      - "GFORCE-Framework"
----
-
 # WILL API Documentation
 
 The WILL API follows the Market Coordination Protocol (MCP) standard for consistent and secure interactions.
@@ -59,9 +30,9 @@ The API Documentation details WILLIAM's endpoints and integration points through
 
 ### 1. Stage 1 (SKENAI)
 ```
-[Raw] → [Initial] → [Basic]
-  ↑        ↕          ↓
-[Log] ← [Process] ← [Check]
+[Raw] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Initial] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Basic]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ        ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Log] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Process] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Check]
 ```
 - /api/v2/skenai/submit
 - /api/v2/skenai/validate
@@ -71,9 +42,9 @@ The API Documentation details WILLIAM's endpoints and integration points through
 
 ### 2. Stage 2 (SKENAI-Q)
 ```
-[Deep] → [Quality] → [Validate]
-  ↑         ↕           ↓
-[Track] ← [Assess] ← [Review]
+[Deep] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Quality] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Validate]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Track] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Assess] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Review]
 ```
 - /api/v2/quality/analyze
 - /api/v2/quality/validate
@@ -83,9 +54,9 @@ The API Documentation details WILLIAM's endpoints and integration points through
 
 ### 3. Stage 3 (SKENAI-R)
 ```
-[Final] → [Deploy] → [Release]
-  ↑         ↕          ↓
-[Monitor] ← [Secure] ← [Track]
+[Final] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Deploy] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Release]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Monitor] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Secure] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Track]
 ```
 - /api/v2/release/verify
 - /api/v2/release/deploy
