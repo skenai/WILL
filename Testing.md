@@ -92,7 +92,7 @@ const testConfig = {
 ## Test Coverage
 
 ### 1. Core Components
-- Mathematical Framework
+- [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - Pattern Recognition
 - GFORCE Framework
 - Value Analysis

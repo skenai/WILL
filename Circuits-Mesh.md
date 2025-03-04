@@ -104,7 +104,7 @@ Operations:
 
 ## References
 - [Circuit Framework](1-G-L0-018-CIRCUITS-MESH.md)
-- [Mathematical Framework](1-G-L0-018-SP1-MATH.md)
+- [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - [GFORCE Standard](1-G-L0-004-GFORCE.md)
 
 

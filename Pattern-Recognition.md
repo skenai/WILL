@@ -3,26 +3,6 @@ version: 2.0.0
 date: 2025-03-04
 type: system-doc
 status: public
-tags: [william, pattern, recognition]
-related: []
-changelog:
-  - version: 2.0.0
-    date: 2025-03-04
-    changes:
-      - "MAJOR: Switch to YAML frontmatter"
-      - "MAJOR: Enhanced metadata structure"
-    references: []
-  - version: 1.0.0
-    date: 2025-03-03
-    changes:
-      - "MAJOR: Initial documentation"
-    references: []
----
----
-version: 2.0.0
-date: 2025-03-04
-type: system-doc
-status: public
 tags: [william, pattern-recognition, intelligence, evolution]
 related:
   - WILL-System.md
@@ -287,7 +267,7 @@ For detailed technical specifications, please refer to:
 ## References
 - [Circuit Framework](Circuits-Mesh)
 - [GFORCE Standard](1-G-L0-004-GFORCE)
-- [Mathematical Framework](1-G-L0-018-SP1-MATH)
+- [Mathematical Framework](Technical-Implementation#value-ranking-system)
 
 ## Pattern Recognition
 
