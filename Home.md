@@ -68,3 +68,12 @@ Current Version: **2.0.0**
 2. Explore the [Architecture](System-Architecture)
 3. Check [Recent Updates](Recent-Updates)
 4. Review [Implementation Guide](Implementation-Guide)
+
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

@@ -99,3 +99,18 @@ interface IPatternRecognition {
 2. Cross-graph routing improvements
 3. Network strength calculations
 4. Quality metric refinements
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

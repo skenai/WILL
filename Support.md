@@ -211,3 +211,23 @@ The Support system provides comprehensive assistance and resources for users, de
 - Email: enterprise@skenai.org
 - Phone: Contact sales for details
 - Portal: [Enterprise Portal](Enterprise)
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

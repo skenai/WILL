@@ -172,3 +172,23 @@ If you're stuck:
 4. Use WILL's interview mode for guidance
 
 Remember: The validation system exists to help create better proposals, not to block progress. Take your time to understand the requirements, and don't hesitate to ask for help!
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

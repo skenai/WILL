@@ -198,3 +198,12 @@ The Three-Graph Lattice integrates with the NATURAL Framework through:
 - Introduced in v2.0.0
 - Required for all new implementations
 - [Migration Guide](versions/MIGRATION-1.0.0-to-2.0.0)
+
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

@@ -21,3 +21,12 @@
 - [v1.0.0 Documentation](versions/v1.0.0/Home)
 - [Version History](versions/VERSION-HISTORY)
 - [Release Notes](versions/RELEASE-2.0.0)
+
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

@@ -274,3 +274,23 @@ Description:
 - **Problem**: Formula for calculating quality multiplier is ambiguous
 - **Expected**: Clear explanation with step-by-step example
 - **Additional Context**: [Screenshot or code snippet]
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

@@ -76,3 +76,18 @@ Current Annual Run Rate: $1M
    - Scalable infrastructure
    - Multiple revenue streams
    - Cross-market applications
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

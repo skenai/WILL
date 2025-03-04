@@ -23,3 +23,23 @@ The GEN-EVO framework emerged from a unique collaboration between AI and human i
    - AIQ: AI measures quality, humans define value
 
 The framework represents neither pure AI nor pure human design, but a genuine synthesis of both capabilities. This collaboration enables systems that are both highly efficient and deeply meaningful.
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

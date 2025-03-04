@@ -231,3 +231,12 @@ For detailed implementation guidance:
 3. Understand [Security Protocols](Security-Protocols)
 4. Follow [Development Guide](Development)
 5. Consult [API Reference](API-Reference)
+
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
