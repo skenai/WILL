@@ -1,4 +1,24 @@
 ---
+version: 2.0.0
+date: 2025-03-04
+type: framework-doc
+status: public
+tags: [william, quantum, framework]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+---
 version: 1.0.0
 date: 2025-03-03
 type: framework

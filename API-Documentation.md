@@ -4,6 +4,26 @@ date: 2025-03-04
 type: api-doc
 status: public
 tags: [william, api, documentation]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+---
+version: 2.0.0
+date: 2025-03-04
+type: api-doc
+status: public
+tags: [william, api, documentation]
 related:
   - WILL-System.md
   - Three-Stage-Architecture.md
@@ -28,9 +48,6 @@ changelog:
 ---
 
 # WILL API Documentation
-
-[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
-[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
 
 The WILL API follows the Market Coordination Protocol (MCP) standard for consistent and secure interactions.
 

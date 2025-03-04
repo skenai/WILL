@@ -1,3 +1,23 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: guide-doc
+status: public
+tags: [william, will, user, guide]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # WILL User Guide: Understanding Proposal Validation
 
 ## Overview

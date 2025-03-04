@@ -1,5 +1,25 @@
 ---
 version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, legend, system]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+---
+version: 2.0.0
 date: 2025-03-03
 type: system-doc
 status: public
@@ -37,9 +57,6 @@ changelog:
 ---
 
 # LEGEND System
-
-[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
-[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
 
 The LEGEND (Lattice-Enabled Graph ENgine for Decisions) System is the technical validation component of WILL's Three-Graph Lattice.
 

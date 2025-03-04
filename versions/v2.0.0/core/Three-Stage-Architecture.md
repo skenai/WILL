@@ -1,4 +1,24 @@
 ---
+version: 2.0.0
+date: 2025-03-04
+type: architecture-doc
+status: public
+tags: [william, three, stage, architecture]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+---
 version: 1.0.0
 date: 2025-03-03
 type: architecture-doc
