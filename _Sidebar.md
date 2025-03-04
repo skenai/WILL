@@ -28,6 +28,7 @@ changelog:
 ## Core Components
 - [GEORGE Framework](GEORGE-Framework)
 - [NATURAL Framework](NATURAL-Framework)
+- [NORBERT Framework](NORBERT-Framework)
 - [WillChat Component](WillChat-Component)
 - [XP System](Research-and-XP)
 
