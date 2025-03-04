@@ -1,14 +1,23 @@
 ---
-version: 1.0.0
-date: 2025-03-03
+version: 2.0.0
+date: 2025-03-04
 type: framework-doc
 status: public
 tags: [william, gforce, governance]
 related:
   - WILL-System.md
-  - Pattern-Recognition.md
+  - Three-Stage-Architecture.md
   - LEGEND-System.md
 changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Three-stage governance integration"
+      - "MAJOR: Enhanced stage coordination"
+      - "MAJOR: Stage-specific governance"
+      - "MAJOR: Improved system evolution"
+    references:
+      - "WILL-System"
   - version: 1.0.0
     date: 2025-03-03
     changes:
@@ -30,27 +39,45 @@ changelog:
 
 ## Overview
 
-The GFORCE (Governance Framework Orchestrating Resource Coordination and Evolution) provides WILLIAM's foundation for market coordination and value validation.
+The GFORCE (Governance Framework Orchestrating Resource Coordination and Evolution) provides WILLIAM's foundation for market coordination and value validation through a three-stage architecture.
 
 ## Core Components
 
-### 1. Market Coordination
-- Pattern validation
-- Resource allocation
-- Value assessment
-- System evolution
+### 1. Stage 1 (SKENAI)
+```
+[Entry] → [Initial] → [Basic]
+   ↑         ↕          ↓
+[Log] ← [Process] ← [Check]
+```
+- Raw content intake
+- Initial processing
+- Basic validation
+- Content categorization
+- Preliminary governance
 
-### 2. Value Validation
-- Pattern verification
-- Market confirmation
-- Resource optimization
-- Growth tracking
+### 2. Stage 2 (SKENAI-Q)
+```
+[Quality] → [Deep] → [Validate]
+    ↑         ↕          ↓
+[Track] ← [Assess] ← [Review]
+```
+- Proposal validation
+- Quality assessment
+- Security protocols
+- Technical review
+- Community feedback
 
-### 3. System Governance
-- Pattern coordination
-- Market alignment
-- Value creation
-- Natural evolution
+### 3. Stage 3 (SKENAI-R)
+```
+[Final] → [Deploy] → [Release]
+   ↑         ↕          ↓
+[Monitor] ← [Secure] ← [Track]
+```
+- Final verification
+- Production readiness
+- Deployment execution
+- Access management
+- System monitoring
 
 ## Implementation Framework
 
@@ -173,7 +200,6 @@ class SystemEvolution:
 - [Pattern Recognition](Pattern-Recognition) - Analysis system
 - [Evolution Framework](Evolution-Framework) - Growth system
 
-
 ## Integration with NATURAL Framework
 - Clean repository separation
 - Natural pipeline flow
@@ -187,8 +213,3 @@ class SystemEvolution:
 - /pipeline/patterns - Recognition (Q.2)
 - /pipeline/status - State checks
 - /pipeline/vote - Governance
-
-## Integration with Three-Graph Lattice
-- Technical graph validation
-- Economic resource optimization
-- Quality metrics tracking

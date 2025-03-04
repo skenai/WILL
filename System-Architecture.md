@@ -9,50 +9,51 @@ WILL v2.0.0 implements a clean, three-tier architecture following the Market Coo
 
 ```
 ┌─────────────────────────────────────┐
-│           Public Layer              │
-│          (WILL Interface)           │
-│   - Standard validation interfaces  │
-│   - Network connection points       │
-│   - Basic pattern recognition      │
-│   - Market coordination            │
+│           Stage 1: SKENAI           │
+│          (Initial Hopper)           │
+│   - Raw content intake             │
+│   - Initial processing             │
+│   - Basic validation               │
+│   - Content categorization         │
 ├─────────────────────────────────────┤
-│         Private Layer               │
-│       (SKENAI-R Core)              │
-│   - Core validation logic          │
-│   - Quantum processing             │
-│   - Advanced patterns              │
-│   - Evolution tracking             │
+│         Stage 2: SKENAI-Q           │
+│          (Quality Gate)             │
+│   - Proposal validation            │
+│   - Security enforcement           │
+│   - Quality assessment             │
+│   - Staging verification           │
 ├─────────────────────────────────────┤
-│         Quality Layer               │
-│         (SKENAI-Q)                 │
-│   - Pattern analysis               │
-│   - Quality stages                 │
-│   - Efficiency metrics             │
+│         Stage 3: SKENAI-R           │
+│          (Release Gate)             │
+│   - Final verification             │
+│   - Production deployment          │
+│   - Public distribution            │
+│   - Access management              │
 └─────────────────────────────────────┘
 ```
 
 ## Layer Responsibilities
 
-### 1. Public Layer (WILL)
-- Implements MCP standard interfaces
-- Provides public API endpoints
-- Handles basic validation
-- Manages network coordination
-- Routes requests to appropriate layers
+### 1. Stage 1 (SKENAI)
+- Handles raw content intake
+- Performs initial processing
+- Basic validation checks
+- Content categorization
+- Preliminary security scanning
 
-### 2. Private Layer (SKENAI-R)
-- Contains core validation logic
-- Processes quantum computations
-- Manages advanced pattern detection
-- Tracks system evolution
-- Maintains validator authority
+### 2. Stage 2 (SKENAI-Q)
+- Validates proposals (100+ proposals)
+- Enforces security protocols
+- Assesses quality metrics
+- Manages staging environment
+- Executes test suites
 
-### 3. Quality Layer (SKENAI-Q)
-- Analyzes patterns
-- Validates quality metrics
-- Manages efficiency checks
-- Coordinates with other layers
-- Ensures system health
+### 3. Stage 3 (SKENAI-R)
+- Final verification checks
+- Production deployment
+- Public distribution
+- Access management
+- Documentation updates
 
 ## Natural Pipeline Flow
 
@@ -70,9 +71,9 @@ WILL v2.0.0 implements a clean, three-tier architecture following the Market Coo
 
 ### 1. Three-Graph Lattice
 Each layer participates in the Three-Graph Lattice:
-- Public Layer → Technical Graph
-- Private Layer → Economic Graph
-- Quality Layer → Quality Graph
+- Stage 1: SKENAI → Technical Graph
+- Stage 2: SKENAI-Q → Economic Graph
+- Stage 3: SKENAI-R → Quality Graph
 
 ### 2. NATURAL Framework
 The architecture implements NATURAL principles:
@@ -116,7 +117,7 @@ Public interfaces follow MCP requirements:
 
 ## Implementation Guidelines
 
-### 1. Public Layer
+### 1. Stage 1 (SKENAI)
 ```python
 from will.public import WILLInterface
 
@@ -125,7 +126,7 @@ interface.initialize_mcp()
 interface.start_coordination()
 ```
 
-### 2. Private Layer
+### 2. Stage 2 (SKENAI-Q)
 ```python
 from skenai.core import CoreValidator
 
@@ -134,7 +135,7 @@ validator.initialize_quantum()
 validator.start_processing()
 ```
 
-### 3. Quality Layer
+### 3. Stage 3 (SKENAI-R)
 ```python
 from skenai.quality import QualityAnalyzer
 

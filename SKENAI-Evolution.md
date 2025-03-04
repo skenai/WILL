@@ -1,3 +1,32 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, skenai, evolution]
+related:
+  - WILL-System.md
+  - Three-Stage-Architecture.md
+  - System-Architecture.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Three-stage evolution system"
+      - "MAJOR: Enhanced stage coordination"
+      - "MAJOR: Stage-specific flows"
+      - "MAJOR: Improved system integration"
+    references:
+      - "WILL-System"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Basic evolution framework"
+      - "MAJOR: Initial stage design"
+    references:
+      - "GFORCE-Framework"
+---
+
 # SKENAI Evolution
 
 ## WILL Foundation
@@ -16,20 +45,38 @@ WILL serves as the foundational framework upon which SKENAI is built. As the ori
 Building on WILL's robust foundation, SKENAI introduces advanced capabilities while maintaining complete compatibility with WILL's core systems:
 
 ### Three-Stage Architecture
-- **SKENAI**: Primary entry point, built on WILL's intake systems
-  - Enhances WILL's content processing
-  - Implements first-stage validation
-  - Maintains WILL's mathematical framework
+```
+{{ ... }}
 
-- **SKENAI-Q**: Quality control, extending WILL's validation
-  - Builds on WILL's quality metrics
-  - Enhances proposal validation
-  - Implements WILL's security protocols
+### Three-Stage Architecture
+```
+[Stage 1: SKENAI] → [Initial] → [Basic]
+        ↑              ↕           ↓
+[Stage 2: SKENAI-Q] → [Quality] → [Deep]
+        ↑              ↕           ↓
+[Stage 3: SKENAI-R] → [Final] → [Production]
+```
 
-- **SKENAI-R**: Production release, following WILL's deployment patterns
-  - Maintains WILL's distribution standards
-  - Enhances access control
-  - Preserves system integrity
+- **Stage 1 (SKENAI)**: Primary entry point
+  - Raw content intake
+  - Initial processing
+  - Basic validation
+  - Content categorization
+  - Preliminary security
+
+- **Stage 2 (SKENAI-Q)**: Quality control
+  - Proposal validation
+  - Quality assessment
+  - Security protocols
+  - Technical review
+  - Community feedback
+
+- **Stage 3 (SKENAI-R)**: Production release
+  - Final verification
+  - Production readiness
+  - Deployment execution
+  - Access management
+  - System monitoring
 
 ### Enhanced Governance
 - Structured proposal system based on WILL's GFORCE framework

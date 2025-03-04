@@ -1,3 +1,32 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, security, protocols]
+related:
+  - WILL-System.md
+  - Three-Stage-Architecture.md
+  - OMEGA_BLACK.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Three-stage security integration"
+      - "MAJOR: Enhanced OMEGA_BLACK protocols"
+      - "MAJOR: Stage-specific security flows"
+      - "MAJOR: Improved monitoring systems"
+    references:
+      - "WILL-System"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Basic security framework"
+      - "MAJOR: Initial OMEGA_BLACK"
+    references:
+      - "GFORCE-Framework"
+---
+
 # Security Protocols
 
 ## Overview
@@ -151,26 +180,43 @@ Security Protocols define the comprehensive security measures and procedures imp
 
 ## Integration with SKENAI
 
-### 1. Security Flow
-```
-[Security] → [SKENAI] → [SKENAI-Q] → [SKENAI-R]
-     ↑          ↕           ↕            ↓
-[Check] ← [Validate] ← [Audit] ← [Release]
-```
+## Stage-Specific Security
 
-### 2. Security Gates
-- Input validation
-- Process security
-- Output verification
-- Access control
-- Audit logging
+### 1. Stage 1 (SKENAI)
+```
+[External] → [Basic Check] → [Initial Scan]
+     ↑           ↕               ↓
+[Monitor] ← [Log] ← [Report]
+```
+- Basic security scanning
+- Initial threat detection
+- Preliminary logging
+- Access validation
+- Content verification
 
-### 3. Monitoring
-- Security events
-- System status
-- Access patterns
-- Performance metrics
-- Compliance status
+### 2. Stage 2 (SKENAI-Q)
+```
+[Intake] → [Deep Scan] → [Protocol Check]
+    ↑          ↕              ↓
+[Monitor] ← [Enforce] ← [Validate]
+```
+- OMEGA_BLACK enforcement
+- Proposal validation
+- Security assessment
+- Protocol compliance
+- Quality verification
+
+### 3. Stage 3 (SKENAI-R)
+```
+[Staging] → [Final Check] → [Production]
+    ↑           ↕              ↓
+[Monitor] ← [Deploy] ← [Secure]
+```
+- Production security
+- Deployment validation
+- Access management
+- System monitoring
+- Incident response
 
 ## Compliance
 

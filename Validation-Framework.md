@@ -1,3 +1,32 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, validation, framework]
+related:
+  - WILL-System.md
+  - Three-Stage-Architecture.md
+  - Quality-Metrics.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Three-stage validation system"
+      - "MAJOR: Enhanced quality metrics"
+      - "MAJOR: Stage-specific validation flows"
+      - "MAJOR: Improved verification process"
+    references:
+      - "WILL-System"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Basic validation framework"
+      - "MAJOR: Initial quality checks"
+    references:
+      - "GFORCE-Framework"
+---
+
 # Validation Framework
 
 ## Overview
@@ -6,33 +35,35 @@ The Validation Framework ensures the quality, security, and consistency of all c
 
 ## Core Components
 
-### 1. Proposal Validation
+### 1. Three-Stage Validation
 ```
-[Submission] → [Initial Check] → [Detailed Review]
-      ↑              ↕                   ↓
-[Feedback] ← [Quality Check] ← [Security Review]
+[Stage 1: SKENAI] → [Initial Check] → [Basic Validation]
+         ↑                 ↕                   ↓
+[Stage 2: SKENAI-Q] → [Quality Check] → [Security Review]
+         ↑                 ↕                   ↓
+[Stage 3: SKENAI-R] → [Final Check] → [Production Deploy]
 ```
 
-#### Structure Validation
-- Format checking
-- Required fields
-- Data types
-- Relationships
-- Dependencies
+#### Stage 1 Validation (SKENAI)
+- Raw content intake
+- Initial format checking
+- Basic security scan
+- Content categorization
+- Preliminary assessment
 
-#### Content Validation
-- Quality assessment
-- Completeness check
-- Accuracy verification
-- Consistency check
-- Reference validation
+#### Stage 2 Validation (SKENAI-Q)
+- Proposal validation (100+ proposals)
+- Quality metrics assessment
+- Security protocol enforcement
+- Cross-reference validation
+- Staging verification
 
-#### Security Validation
-- Security review
-- Risk assessment
-- Compliance check
-- Vulnerability scan
+#### Stage 3 Validation (SKENAI-R)
+- Final verification
+- Production readiness
 - Access control
+- Documentation checks
+- Deployment validation
 
 ### 2. Code Validation
 

@@ -1,3 +1,32 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: api-doc
+status: public
+tags: [william, api, documentation]
+related:
+  - WILL-System.md
+  - Three-Stage-Architecture.md
+  - API-Reference.md
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Three-stage API integration"
+      - "MAJOR: Enhanced endpoint system"
+      - "MAJOR: Stage-specific API flows"
+      - "MAJOR: Improved documentation framework"
+    references:
+      - "WILL-System"
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Basic API framework"
+      - "MAJOR: Initial endpoint system"
+    references:
+      - "GFORCE-Framework"
+---
+
 # WILL API Documentation
 
 [![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
@@ -5,43 +34,47 @@
 
 The WILL API follows the Market Coordination Protocol (MCP) standard for consistent and secure interactions.
 
-## Pipeline Endpoints
+## Overview
 
-### /pipeline/submit
-Entry point for proposals
-- Method: POST
-- Request: Proposal data
-- Response: Proposal ID and initial status
+The API Documentation details WILLIAM's endpoints and integration points through a three-stage architecture.
 
-### /pipeline/validate
-Basic validation checks
-- Method: POST
-- Request: Proposal ID
-- Response: Validation results
+## Core Components
 
-### /pipeline/analyze
-Efficiency check (Q.1)
-- Method: POST
-- Request: Proposal ID
-- Response: Efficiency metrics
+### 1. Stage 1 (SKENAI)
+```
+[Raw] → [Initial] → [Basic]
+  ↑        ↕          ↓
+[Log] ← [Process] ← [Check]
+```
+- /api/v2/skenai/submit
+- /api/v2/skenai/validate
+- /api/v2/skenai/status
+- /api/v2/skenai/check
+- /api/v2/skenai/log
 
-### /pipeline/patterns
-Pattern recognition (Q.2)
-- Method: POST
-- Request: Proposal ID
-- Response: Pattern analysis
+### 2. Stage 2 (SKENAI-Q)
+```
+[Deep] → [Quality] → [Validate]
+  ↑         ↕           ↓
+[Track] ← [Assess] ← [Review]
+```
+- /api/v2/quality/analyze
+- /api/v2/quality/validate
+- /api/v2/quality/review
+- /api/v2/quality/assess
+- /api/v2/quality/track
 
-### /pipeline/status
-Check proposal state
-- Method: GET
-- Request: Proposal ID
-- Response: Current state and next actions
-
-### /pipeline/vote
-Governance decisions
-- Method: POST
-- Request: Vote data
-- Response: Vote status
+### 3. Stage 3 (SKENAI-R)
+```
+[Final] → [Deploy] → [Release]
+  ↑         ↕          ↓
+[Monitor] ← [Secure] ← [Track]
+```
+- /api/v2/release/verify
+- /api/v2/release/deploy
+- /api/v2/release/monitor
+- /api/v2/release/secure
+- /api/v2/release/track
 
 ## Security
 
@@ -71,7 +104,6 @@ All responses follow:
 - [[Integration-Guide]]
 - [[Architecture]]
 - [[FAQ]]
-
 
 ## Integration with NATURAL Framework
 - Clean repository separation

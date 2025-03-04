@@ -88,28 +88,41 @@ The Governance Framework represents the foundational rules and processes that go
 
 ## Three-Stage Processing
 
-### 1. SKENAI (Initial Processing)
-- Proposal submission
-- Basic validation
-- Format checking
-- Initial categorization
+### 1. Stage 1 (SKENAI)
+```
+[Submission] → [Initial Check] → [Basic Review]
+      ↑              ↕               ↓
+[Feedback] ← [Log] ← [Report]
+```
+- Raw proposal intake
+- Format validation
+- Basic categorization
+- Initial security scan
 - Preliminary review
 
-### 2. SKENAI-Q (Quality Control)
+### 2. Stage 2 (SKENAI-Q)
+```
+[Intake] → [Quality Check] → [Deep Review]
+    ↑           ↕               ↓
+[Monitor] ← [Validate] ← [Assess]
+```
 - Detailed validation
-- Security assessment
-- Impact analysis
-- Community feedback
+- Quality assessment
+- Security protocols
 - Technical review
-- Documentation check
+- Community feedback
 
-### 3. SKENAI-R (Release)
-- Final approval
-- Implementation verification
-- Documentation updates
-- Release preparation
+### 3. Stage 3 (SKENAI-R)
+```
+[Staging] → [Final Check] → [Production]
+    ↑           ↕              ↓
+[Monitor] ← [Deploy] ← [Release]
+```
+- Final verification
+- Production readiness
 - Deployment execution
-- Post-deployment monitoring
+- Access management
+- System monitoring
 
 ## Version Control
 

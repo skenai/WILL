@@ -1,27 +1,28 @@
 ---
-version: 1.0.0
-date: 2025-03-03
+version: 2.0.0
+date: 2025-03-04
 type: architecture-doc
 status: public
-tags: [william, architecture, pipeline]
+tags: [william, architecture, framework]
 related:
-  - System-Overview.md
-  - NATURAL-Framework.md
+  - WILL-System.md
+  - SKENAI-Evolution.md
   - Pattern-Recognition.md
 changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Enhanced three-stage integration"
+      - "MAJOR: Improved stage coordination"
+      - "MAJOR: Stage-specific processing flows"
+      - "MAJOR: Advanced validation patterns"
+    references:
+      - "WILL-System"
   - version: 1.0.0
     date: 2025-03-03
     changes:
-      - "MAJOR: Enhanced pattern validation pipeline"
-      - "MAJOR: Improved market signal processing"
-      - "MAJOR: Advanced quality control system"
-    references:
-      - "WILL-System"
-  - version: 0.2.0
-    date: 2025-03-01
-    changes:
-      - "MAJOR: Initial three-stage pipeline"
-      - "MAJOR: Basic quality metrics"
+      - "MAJOR: Basic three-stage framework"
+      - "MAJOR: Initial stage coordination"
     references:
       - "GFORCE-Framework"
 ---

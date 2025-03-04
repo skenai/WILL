@@ -1,29 +1,30 @@
 ---
-version: 1.0.0
-date: 2025-03-03
+version: 2.0.0
+date: 2025-03-04
 type: component-doc
 status: public
-tags: [william, chat, interface]
+tags: [william, chat, component]
 related:
   - WILL-System.md
+  - Three-Stage-Architecture.md
   - Pattern-Recognition.md
-  - NATURAL-Framework.md
 changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Enhanced three-stage integration"
+      - "MAJOR: Improved chat coordination"
+      - "MAJOR: Stage-specific chat flows"
+      - "MAJOR: Advanced chat patterns"
+    references:
+      - "WILL-System"
   - version: 1.0.0
     date: 2025-03-03
     changes:
-      - "MAJOR: Enhanced natural language understanding"
-      - "MAJOR: Improved market signal processing"
-      - "MAJOR: Advanced pattern recognition"
+      - "MAJOR: Basic chat framework"
+      - "MAJOR: Initial chat coordination"
     references:
-      - "WILL-System"
-  - version: 0.2.0
-    date: 2025-03-01
-    changes:
-      - "MAJOR: Basic language processing"
-      - "MAJOR: Initial pattern detection"
-    references:
-      - "NATURAL-Framework"
+      - "GFORCE-Framework"
 ---
 
 # WillChat Component
@@ -421,8 +422,3 @@ class ValueDiscovery:
 - /pipeline/patterns - Recognition (Q.2)
 - /pipeline/status - State checks
 - /pipeline/vote - Governance
-
-## Integration with Three-Graph Lattice
-- Technical graph validation
-- Economic resource optimization
-- Quality metrics tracking
