@@ -135,11 +135,10 @@ This creates sustainable value through:
 - Real growth (time advantage)
 
 ## References
-- [Camera Framework](Camera-Framework.md)
-- [Foundation Model](Foundation-Model.md)
-- [Network Effects](Network-Effects.md)
-- [SKENAI Whitepaper](../../WHITEPAPER.md)
-
+- [System Architecture](System-Architecture)
+- [NATURAL Framework](NATURAL-Framework)
+- [INTELLIGENCE Network](INTELLIGENCE-Network)
+- [SKENAI Evolution](SKENAI-Evolution)
 
 ## Integration with NATURAL Framework
 - Clean repository separation
