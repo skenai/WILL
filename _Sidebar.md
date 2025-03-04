@@ -20,14 +20,14 @@ changelog:
 ---
 # WILL Documentation
 
-## Latest Version (v2.0.0)
-- [Home](Home)
-- [Quick Start](QuickStart)
-- [Migration Guide](versions/MIGRATION-1.0.0-to-2.0.0)
+## Architecture
+- [Three-Graph Lattice](Three-Graph-Lattice)
+- [Technical Implementation](Technical-Implementation)
+- [System Architecture](System-Architecture)
 
 ## Core Components
+- [GEORGE Framework](GEORGE-Framework)
 - [NATURAL Framework](NATURAL-Framework)
-- [Three-Graph Lattice](Three-Graph-Lattice)
 - [WillChat Component](WillChat-Component)
 - [XP System](Research-and-XP)
 
@@ -41,7 +41,6 @@ changelog:
 - [v1.0.0 Documentation](versions/v1.0.0/Home)
 - [Version History](versions/VERSION-HISTORY)
 - [Release Notes](versions/RELEASE-2.0.0)
-
 
 ## Pipeline API Integration
 - /pipeline/submit - Entry point
