@@ -1,227 +1,187 @@
 # System Architecture
 
-## Overview
+[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
+[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
 
-The system architecture combines WILL's foundational framework with SKENAI's enhanced capabilities, creating a robust and scalable infrastructure for decentralized intelligence and governance.
+WILL v2.0.0 implements a clean, three-tier architecture following the Market Coordination Protocol (MCP) standard.
 
-## Core Components
+## Architecture Overview
+
+```
+┌─────────────────────────────────────┐
+│           Public Layer              │
+│          (WILL Interface)           │
+│   - Standard validation interfaces  │
+│   - Network connection points       │
+│   - Basic pattern recognition      │
+│   - Market coordination            │
+├─────────────────────────────────────┤
+│         Private Layer               │
+│       (SKENAI-R Core)              │
+│   - Core validation logic          │
+│   - Quantum processing             │
+│   - Advanced patterns              │
+│   - Evolution tracking             │
+├─────────────────────────────────────┤
+│         Quality Layer               │
+│         (SKENAI-Q)                 │
+│   - Pattern analysis               │
+│   - Quality stages                 │
+│   - Efficiency metrics             │
+└─────────────────────────────────────┘
+```
+
+## Layer Responsibilities
+
+### 1. Public Layer (WILL)
+- Implements MCP standard interfaces
+- Provides public API endpoints
+- Handles basic validation
+- Manages network coordination
+- Routes requests to appropriate layers
+
+### 2. Private Layer (SKENAI-R)
+- Contains core validation logic
+- Processes quantum computations
+- Manages advanced pattern detection
+- Tracks system evolution
+- Maintains validator authority
+
+### 3. Quality Layer (SKENAI-Q)
+- Analyzes patterns
+- Validates quality metrics
+- Manages efficiency checks
+- Coordinates with other layers
+- Ensures system health
+
+## Natural Pipeline Flow
+
+```
+┌──────────┐    ┌──────────┐    ┌──────────┐
+│  SKENAI  │ -> │ R-prop   │ -> │   Q.1    │
+└──────────┘    └──────────┘    └──────────┘
+                                      │
+┌──────────┐    ┌──────────┐    ┌──────────┐
+│ R-final  │ <- │   Vote   │ <- │   Q.2    │
+└──────────┘    └──────────┘    └──────────┘
+```
+
+## Integration Points
 
 ### 1. Three-Graph Lattice
+Each layer participates in the Three-Graph Lattice:
+- Public Layer → Technical Graph
+- Private Layer → Economic Graph
+- Quality Layer → Quality Graph
+
+### 2. NATURAL Framework
+The architecture implements NATURAL principles:
+1. Clean repository separation
+2. Natural pipeline flow
+3. Validator protection
+4. Interface standards
+
+### 3. MCP Standard
+Public interfaces follow MCP requirements:
+- Standard validation interfaces
+- Network coordination rules
+- Agent interaction protocols
+- Market validation patterns
+
+## Security Architecture
+
+### 1. Layer Protection
 ```
-[Data Layer]
-    ↕
-[Processing Layer]
-    ↕
-[Governance Layer]
-```
-
-#### Data Layer
-- Decentralized storage
-- Data integrity verification
-- Version control system
-- Backup management
-- Access control
-
-#### Processing Layer
-- Pattern recognition
-- Neural networks
-- Machine learning
-- Data analysis
-- Event processing
-
-#### Governance Layer
-- Proposal management
-- Decision frameworks
-- Quality control
-- Security protocols
-- Access policies
-
-### 2. Processing Pipeline
-
-```
-Raw Data → SKENAI → SKENAI-Q → SKENAI-R → Production
-   ↑          |          |          |          |
-   └──────────┴──────────┴──────────┴──────────┘
-            Feedback & Iteration Loop
+┌────────────────┐
+│  Public API    │ ← HTTPS, API Keys
+├────────────────┤
+│  Private Core  │ ← Vote Gates, Auth
+├────────────────┤
+│  Quality Layer │ ← Pattern Validation
+└────────────────┘
 ```
 
-#### SKENAI (First Hopper)
-- Raw data intake
-- Initial processing
-- Basic validation
-- Data categorization
-- Preliminary security checks
+### 2. Data Flow Security
+- Request signing required
+- Rate limiting enforced
+- Validator authority respected
+- Pattern validation required
+- Access control maintained
 
-#### SKENAI-Q (Quality Control)
-- Detailed validation
-- Quality assessment
-- Security protocols
-- Performance testing
-- Documentation review
+### 3. Validator Protection
+- Core stays private
+- Vote gates for changes
+- Pattern emergence preserved
+- Natural movement maintained
 
-#### SKENAI-R (Release)
-- Production deployment
-- Access management
-- System monitoring
-- Performance tracking
-- Documentation maintenance
+## Implementation Guidelines
 
-### 3. Security Architecture
+### 1. Public Layer
+```python
+from will.public import WILLInterface
 
-```
-[External Layer]
-    ↓
-[OMEGA_BLACK]
-    ↓
-[Core Security]
-    ↓
-[Data Protection]
+interface = WILLInterface()
+interface.initialize_mcp()
+interface.start_coordination()
 ```
 
-#### External Layer
-- Access control
-- Authentication
-- Authorization
-- Rate limiting
-- DDoS protection
+### 2. Private Layer
+```python
+from skenai.core import CoreValidator
 
-#### OMEGA_BLACK Protocols
-- Advanced security measures
-- Threat detection
-- Incident response
-- Security auditing
-- Compliance monitoring
-
-#### Core Security
-- Encryption
-- Key management
-- Session control
-- Audit logging
-- Backup systems
-
-#### Data Protection
-- Data encryption
-- Access logging
-- Version control
-- Integrity checks
-- Recovery systems
-
-## System Integration
-
-### 1. Component Interaction
-```
-[WillChat] ←→ [Pattern Recognition] ←→ [GFORCE]
-    ↕              ↕                      ↕
-[LEGEND] ←→ [NATURAL Framework] ←→ [INTELLIGENCE]
+validator = CoreValidator()
+validator.initialize_quantum()
+validator.start_processing()
 ```
 
-### 2. Data Flow
+### 3. Quality Layer
+```python
+from skenai.quality import QualityAnalyzer
+
+analyzer = QualityAnalyzer()
+analyzer.initialize_patterns()
+analyzer.start_analysis()
 ```
-Input → Validation → Processing → Quality Control → Release
-  ↑                                                  |
-  └──────────────── Feedback Loop ─────────────────┘
-```
-
-### 3. Governance Flow
-```
-Proposal → Review → Validation → Implementation → Deployment
-   ↑                                                |
-   └───────────── Continuous Improvement ──────────┘
-```
-
-## Technical Implementation
-
-### 1. Core Systems
-- Pattern recognition engine
-- Neural network framework
-- Machine learning pipeline
-- Natural language processing
-- Data analysis tools
-
-### 2. Integration Points
-- API endpoints
-- Event handlers
-- Message queues
-- Data streams
-- Service interfaces
-
-### 3. Development Stack
-- Core frameworks
-- Development tools
-- Testing suites
-- Deployment systems
-- Monitoring tools
-
-## Quality Assurance
-
-### 1. Testing Framework
-```
-Unit Tests → Integration Tests → System Tests → Acceptance
-    ↑            ↑                  ↑              ↑
-    └────────────┴──────────────────┴──────────────┘
-               Continuous Testing Loop
-```
-
-### 2. Monitoring Systems
-- Performance metrics
-- Error tracking
-- Usage statistics
-- Security monitoring
-- Health checks
-
-### 3. Quality Metrics
-- Code coverage
-- Performance benchmarks
-- Security compliance
-- Documentation completeness
-- User satisfaction
 
 ## Deployment Architecture
 
-### 1. Environment Structure
+### 1. Repository Structure
 ```
-Development → Staging → Production
-     ↑           ↑          ↑
-     └───────────┴──────────┘
-    Continuous Deployment
+will/
+├── public/           # Public API
+│   ├── api/         # Endpoints
+│   └── docs/        # Documentation
+├── private/         # Core logic
+│   ├── validators/  # R validators
+│   └── quantum/     # Processing
+└── quality/         # Q analysis
+    ├── patterns/    # Detection
+    └── metrics/     # Evaluation
 ```
 
-### 2. Scaling Strategy
-- Horizontal scaling
-- Load balancing
-- Cache management
-- Database optimization
-- Resource allocation
+### 2. Network Architecture
+```
+[Clients] → [Public API] → [Load Balancer]
+                              │
+                        ┌─────┴─────┐
+                        ▼           ▼
+                  [Private]    [Quality]
+```
 
-### 3. Backup Systems
-- Regular backups
-- Version control
-- Disaster recovery
-- Data redundancy
-- System restoration
+## Version Changes
 
-## Documentation Structure
+### New in v2.0.0
+1. MCP standard implementation
+2. Three-Graph Lattice integration
+3. Enhanced security model
+4. Clean repository separation
+5. Natural pipeline flow
 
-### 1. Technical Documentation
-- API references
-- Implementation guides
-- Development standards
-- Security protocols
-- Testing procedures
-
-### 2. User Documentation
-- User guides
-- Feature documentation
-- Troubleshooting guides
-- FAQs
-- Best practices
-
-### 3. System Documentation
-- Architecture overview
-- Component interactions
-- Data flows
-- Security measures
-- Deployment procedures
+### Migration Notes
+- Update to MCP interfaces
+- Implement Three-Graph Lattice
+- Enable validator protection
+- Add security enhancements
 
 ## Getting Started
 
@@ -231,7 +191,6 @@ For detailed implementation guidance:
 3. Understand [Security Protocols](Security-Protocols)
 4. Follow [Development Guide](Development)
 5. Consult [API Reference](API-Reference)
-
 
 ## Pipeline API Integration
 - /pipeline/submit - Entry point
