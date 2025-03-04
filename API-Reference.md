@@ -1,5 +1,10 @@
 # API Reference
 
+[![WILL Version](https://img.shields.io/badge/WILL-v2.0.0-blue.svg)](https://github.com/shibakery/WILL/tree/v2.0.0)
+[![Documentation](https://img.shields.io/badge/docs-current-green.svg)](https://github.com/shibakery/WILL/wiki)
+
+WILL v2.0.0 implements the Market Coordination Protocol (MCP) standard for consistent and secure network interactions.
+
 ## Overview
 
 The SKENAI API provides programmatic access to the system's core functionality, enabling integration with external systems and custom implementations. This reference documents the available endpoints, data structures, and integration patterns.
@@ -65,6 +70,140 @@ DELETE /api/v1/webhooks/remove
 GET    /api/v1/events/stream
 POST   /api/v1/events/publish
 GET    /api/v1/events/history
+```
+
+### 4. Pipeline API
+
+#### Proposal Submission
+
+```typescript
+POST /pipeline/submit
+{
+    "proposal": {
+        "content": string,
+        "metadata": {
+            "type": "technical" | "economic" | "quality",
+            "version": "2.0.0",
+            "timestamp": string
+        }
+    }
+}
+
+Response:
+{
+    "status": "success",
+    "data": {
+        "proposal_id": string,
+        "status": "pending_validation",
+        "next_stage": "validation"
+    }
+}
+```
+
+#### Validation
+
+```typescript
+POST /pipeline/validate
+{
+    "proposal_id": string,
+    "validation_type": "technical" | "economic" | "quality"
+}
+
+Response:
+{
+    "status": "success",
+    "data": {
+        "validation_results": {
+            "passed": boolean,
+            "metrics": Object,
+            "next_stage": "analyze" | "rejected"
+        }
+    }
+}
+```
+
+#### Pattern Analysis (Q.1)
+
+```typescript
+POST /pipeline/analyze
+{
+    "proposal_id": string,
+    "analysis_type": "efficiency" | "security" | "quality"
+}
+
+Response:
+{
+    "status": "success",
+    "data": {
+        "efficiency_score": number,
+        "patterns_detected": string[],
+        "recommendations": Object
+    }
+}
+```
+
+#### Pattern Recognition (Q.2)
+
+```typescript
+POST /pipeline/patterns
+{
+    "proposal_id": string,
+    "pattern_context": {
+        "technical": Object,
+        "economic": Object,
+        "quality": Object
+    }
+}
+
+Response:
+{
+    "status": "success",
+    "data": {
+        "patterns": Object[],
+        "confidence": number,
+        "impact_analysis": Object
+    }
+}
+```
+
+#### Status Check
+
+```typescript
+GET /pipeline/status/{proposal_id}
+
+Response:
+{
+    "status": "success",
+    "data": {
+        "current_stage": string,
+        "history": Object[],
+        "next_actions": string[]
+    }
+}
+```
+
+#### Governance Vote
+
+```typescript
+POST /pipeline/vote
+{
+    "proposal_id": string,
+    "vote": {
+        "decision": "approve" | "reject",
+        "rationale": string,
+        "validator_id": string
+    }
+}
+
+Response:
+{
+    "status": "success",
+    "data": {
+        "vote_recorded": boolean,
+        "current_status": string,
+        "vote_summary": Object
+    }
+}
 ```
 
 ## Data Structures
@@ -224,12 +363,16 @@ Accept: application/vnd.skenai.v1+json
 4. [Handle responses](API-Reference#responses)
 5. [Implement error handling](API-Reference#errors)
 
-
 ## Integration with NATURAL Framework
 - Clean repository separation
 - Natural pipeline flow
 - Validator protection
 - Interface standards
+
+## Three-Graph Lattice Integration
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking
 
 ## Pipeline API Integration
 - /pipeline/submit - Entry point
@@ -239,7 +382,40 @@ Accept: application/vnd.skenai.v1+json
 - /pipeline/status - State checks
 - /pipeline/vote - Governance
 
-## Integration with Three-Graph Lattice
-- Technical graph validation
-- Economic resource optimization
-- Quality metrics tracking
+## SDK Support
+
+Official SDKs:
+- [JavaScript/TypeScript](https://github.com/shibakery/will-js)
+- [Python](https://github.com/shibakery/will-py)
+- [Rust](https://github.com/shibakery/will-rs)
+
+## Error Handling
+
+All errors follow the standard format:
+
+```typescript
+{
+    "status": "error",
+    "error": {
+        "code": string,
+        "message": string,
+        "details": Object
+    }
+}
+```
+
+Common error codes:
+- `INVALID_REQUEST`: Malformed request
+- `UNAUTHORIZED`: Missing or invalid credentials
+- `RATE_LIMITED`: Too many requests
+- `VALIDATION_FAILED`: Failed validation checks
+- `PROPOSAL_NOT_FOUND`: Invalid proposal ID
+- `STAGE_VIOLATION`: Invalid pipeline stage transition
+
+## Security Considerations
+
+1. All endpoints use HTTPS
+2. Request signing required
+3. Rate limiting enforced
+4. Validator authority respected
+5. Vote gates for major changes
