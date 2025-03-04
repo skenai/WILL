@@ -110,7 +110,7 @@ scripts/update-wiki.bat "docs: add XP calculation examples for NFT minting"
    ```markdown
    # Good link format
    See the [XP System](Research-and-XP.md#xp-system) for details.
-   Related: [G-L1-021-EVERSTRIKE](../governance/proposals/1-G-L1-021-EVERSTRIKE.md)
+   Related: [EVERSTRIKE Integration](Everstrike-Partnership.md)
 
    # Bad link format
    See https://github.com/shibakenfinance/WILL/wiki/Research-and-XP

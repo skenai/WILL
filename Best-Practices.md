@@ -264,18 +264,17 @@ Best Practices:
 ## Getting Started
 
 For implementation guidance:
-1. Review [Technical Implementation](Technical-Implementation)
-2. Study [System Architecture](System-Architecture)
-3. Understand [Security Protocols](Security-Protocols)
-4. Follow [API Reference](API-Reference)
-5. Join [Community](Contributing)
+1. Review [Development Guide](Development.md)
+2. Study [System Overview](System-Overview.md)
+3. Understand [Security](Security.md)
+4. Follow [API Reference](API-Reference.md)
+5. Join [Community](Contributing.md)
 
 ## Additional Resources
-- [Technical Implementation](Technical-Implementation)
-- [Pattern Recognition](Pattern-Recognition)
-- [GFORCE Framework](GFORCE-Framework)
-- [Development Process](Development)
-
+- [NATURAL Framework](NATURAL-Framework.md)
+- [Pattern Recognition](Pattern-Recognition.md)
+- [GFORCE Framework](GFORCE-Framework.md)
+- [Development Guide](Development.md)
 
 ## Integration with NATURAL Framework
 - Clean repository separation
