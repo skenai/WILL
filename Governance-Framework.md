@@ -212,7 +212,7 @@ The Governance Framework represents the foundational rules and processes that go
 ## Getting Started
 
 For detailed information on implementing proposals:
-1. Review the [Proposal Validation](Proposal-Validation) guide
+1. Review the [Validation Framework](Validation-Framework#proposal-validation) guide
 2. Study the [Three-Stage Architecture](Three-Stage-Architecture)
 3. Understand [Security Protocols](Technical-Implementation#security-protocols)
 4. Follow [Quality Metrics](Quality-Metrics)
