@@ -7,6 +7,7 @@
 - [Pattern Recognition](Pattern-Recognition)
 - [Mathematical Framework](Technical-Implementation#value-ranking-system)
 - [WillChat Component](WillChat-Component)
+- [Evolution Arena](Evolution-Arena)
 
 ### System Architecture
 - [Technical Implementation](Technical-Implementation)
