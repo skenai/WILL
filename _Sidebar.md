@@ -31,6 +31,12 @@ changelog:
 - [NORBERT Framework](NORBERT-Framework)
 - [WillChat Component](WillChat-Component)
 - [XP System](Research-and-XP)
+- [Evolution Arena](Evolution-Arena)
+  - [Price Calculator](Evolution-Arena#price-calculator)
+  - [Edge Evolution](Evolution-Arena#edge-evolution)
+  - [Challenge System](Evolution-Arena#challenge-system)
+  - [XP Distribution](Evolution-Arena#xp-distribution)
+  - [Economic Model](Evolution-Arena#economic-model)
 
 ## Development
 - [API Reference](API-Reference)
