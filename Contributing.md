@@ -1,3 +1,23 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, contributing]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # Contributing to WILL Documentation
 
 ## Wiki Structure
@@ -6,14 +26,14 @@ The WILL documentation is organized using a linked repository structure:
 
 ```
 SKENAI/
-├── WILL/
-│   ├── wiki/               # Primary documentation location
-│   │   ├── *.md files     # Wiki content
-│   │   └── _Sidebar.md    # Navigation
-│   ├── docs/              # Technical documentation
-│   └── scripts/           # Utility scripts
-│       └── update-wiki.bat # Wiki update automation
-└── WILL.wiki/             # GitHub Wiki (linked to WILL/wiki)
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ WILL/
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ wiki/               # Primary documentation location
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ *.md files     # Wiki content
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ _Sidebar.md    # Navigation
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ docs/              # Technical documentation
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ scripts/           # Utility scripts
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡       ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ update-wiki.bat # Wiki update automation
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ WILL.wiki/             # GitHub Wiki (linked to WILL/wiki)
 ```
 
 ## How to Update Documentation
@@ -110,7 +130,7 @@ scripts/update-wiki.bat "docs: add XP calculation examples for NFT minting"
    ```markdown
    # Good link format
    See the [XP System](Research-and-XP.md#xp-system) for details.
-   Related: [G-L1-021-EVERSTRIKE](../governance/proposals/1-G-L1-021-EVERSTRIKE.md)
+   Related: [EVERSTRIKE Integration](Everstrike-Partnership.md)
 
    # Bad link format
    See https://github.com/shibakenfinance/WILL/wiki/Research-and-XP
@@ -274,3 +294,18 @@ Description:
 - **Problem**: Formula for calculating quality multiplier is ambiguous
 - **Expected**: Clear explanation with step-by-step example
 - **Additional Context**: [Screenshot or code snippet]
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

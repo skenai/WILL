@@ -1,0 +1,57 @@
+name: Documentation CI/CD
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Install dependencies
+        run: |
+          npm install -g markdownlint-cli
+          npm install -g markdown-link-check
+          
+      - name: Check markdown formatting
+        run: markdownlint '**/*.md'
+        
+      - name: Check for broken links
+        run: |
+          find . -name \*.md -exec markdown-link-check {} \;
+          
+      - name: Verify version badges
+        run: |
+          for file in $(find versions -name "*.md"); do
+            if ! grep -q "!\[WILL Version\]" "$file"; then
+              echo "Error: Missing version badge in $file"
+              exit 1
+            fi
+          done
+
+  deploy:
+    needs: validate
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Deploy to GitHub Wiki
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git clone https://github.com/shibakery/WILL.wiki.git
+          cp -r * WILL.wiki/
+          cd WILL.wiki
+          git add .
+          git commit -m "docs: auto-update documentation"
+          git push

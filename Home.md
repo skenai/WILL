@@ -1,9 +1,42 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, home]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # WILL Wiki
 
 Welcome to the WILL (Wisdom Integration Lattice Layer) Wiki! This documentation covers the core components, architecture, and latest developments of the WILL system.
 
+## Version Information
+Current Version: **2.0.0**
+- [Release Notes](versions/RELEASE-2.0.0.md)
+- [Version History](versions/VERSION-HISTORY.md)
+- [v1.0.0 Documentation](https://github.com/shibakery/WILL/tree/v1.0.0/versions/v1.0.0)
+
+### Major Features in v2.0.0
+- NATURAL Framework Integration
+- Three-Graph Lattice Implementation
+- Enhanced Security Model
+- WillChat Component
+- XP System
+
 ## Latest Updates
-🎉 **Three-Graph Lattice Integration** (Feb 25, 2025)
+ÃƒÂ°Ã…Â¸Ã…Â½Ã¢â‚¬Â° **Three-Graph Lattice Integration** (Feb 25, 2025)
 - Integrated technical, economic, and quality graphs
 - Enhanced cross-graph communication
 - Implemented pattern recognition APIs
@@ -52,3 +85,12 @@ Welcome to the WILL (Wisdom Integration Lattice Layer) Wiki! This documentation 
 2. Explore the [Architecture](System-Architecture)
 3. Check [Recent Updates](Recent-Updates)
 4. Review [Implementation Guide](Implementation-Guide)
+
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

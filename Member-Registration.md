@@ -1,3 +1,23 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, member, registration]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # SKENAI DAO Member Registration and Tracking
 
 ## Overview
@@ -74,9 +94,9 @@ Referral Rewards:
     Council_Member: 3x
 
   Token Distribution:
-    SHIBAKEN: 40%
-    SBX: 30%
-    EVS: 30%
+    [[SHIBAKEN Token]]: 40%
+    [[SBX Token]]: 30%
+    [[EVS Token]]: 30%
 ```
 
 ### Tracking
@@ -259,7 +279,27 @@ Retention:
 Token Allocation
 ```yaml
 Distribution:
-     SHIBAKEN: 40%  # Core governance and participation
-     SBX: 30%       # Network value measurement
-     BSTBL: 20%     # Stability mechanism
-     SBV: 10%       # Value flow tracking
+     [[SHIBAKEN Token]]: 40%  # Core governance and participation
+     [[SBX Token]]: 30%       # Network value measurement
+     [[BSTBL Token]]: 20%     # Stability mechanism
+     [[SBV Token]]: 10%       # Value flow tracking
+```
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

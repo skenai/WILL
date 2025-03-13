@@ -1,42 +1,58 @@
-# Navigation
-
-## Core Documentation
-* [Home](Home)
-* [System Overview](System-Overview)
-* [Recent Updates](Recent-Updates)
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, _sidebar]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+# WILL Documentation
 
 ## Architecture
-* [Three-Graph Lattice](Three-Graph-Lattice)
-* [Technical Implementation](Technical-Implementation)
-* [System Architecture](System-Architecture)
+- [Three-Graph Lattice](Three-Graph-Lattice)
+- [Technical Implementation](Technical-Implementation)
+- [System Architecture](System-Architecture)
 
 ## Core Components
-* [Mathematical Framework](Mathematical-Framework)
-* [GFORCE Framework](GFORCE-Framework)
-* [Pattern Recognition](Pattern-Recognition)
-* [WillChat Component](WillChat-Component)
+- [GEORGE Framework](GEORGE-Framework)
+- [NATURAL Framework](NATURAL-Framework)
+- [NORBERT Framework](NORBERT-Framework)
+- [WillChat Component](WillChat-Component)
+- [XP System](Research-and-XP)
+- [Evolution Arena](Evolution-Arena)
+  - [Price Calculator](Evolution-Arena#price-calculator)
+  - [Edge Evolution](Evolution-Arena#edge-evolution)
+  - [Challenge System](Evolution-Arena#challenge-system)
+  - [XP Distribution](Evolution-Arena#xp-distribution)
+  - [Economic Model](Evolution-Arena#economic-model)
 
-## Integration
-* [LEGEND System](LEGEND-System)
-* [NATURAL Framework](NATURAL-Framework)
-* [INTELLIGENCE Network](INTELLIGENCE-Network)
+## Development
+- [API Reference](API-Reference)
+- [Integration Guide](Integration-Guide)
+- [Security](Security-and-Testing)
+- [Best Practices](Best-Practices)
 
-## Developer Resources
-* [Implementation Guide](Implementation-Guide)
-* [API Reference](API-Reference)
-* [Best Practices](Best-Practices)
+## Previous Versions
+- [v1.0.0 Documentation](versions/v1.0.0/Home)
+- [Version History](versions/VERSION-HISTORY)
+- [Release Notes](versions/RELEASE-2.0.0)
 
-## Quality & Security
-* [Validation Framework](Validation-Framework)
-* [Quality Metrics](Quality-Metrics)
-* [Security Protocols](Security-Protocols)
-
-## Market Analysis
-* [Market Overview](Market-Overview)
-* [Target Segments](Target-Segments)
-* [Growth Strategy](Growth-Strategy)
-
-## Community
-* [Contributing Guide](Contributing)
-* [Support](Support)
-* [Roadmap](Roadmap)
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
