@@ -74,7 +74,7 @@ Referral Rewards:
     Council_Member: 3x
 
   Token Distribution:
-    SHIBAK: 40%
+    SHIBAKEN: 40%
     SBX: 30%
     EVS: 30%
 ```
@@ -255,3 +255,11 @@ Retention:
     30_Day: 80%
     90_Day: 60%
     Annual: 40%
+
+Token Allocation
+```yaml
+Distribution:
+     SHIBAKEN: 40%  # Core governance and participation
+     SBX: 30%       # Network value measurement
+     BSTBL: 20%     # Stability mechanism
+     SBV: 10%       # Value flow tracking

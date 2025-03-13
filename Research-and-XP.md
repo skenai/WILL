@@ -214,74 +214,70 @@ Allocation Strategy:
 
 ## Token Integration
 
-### 1. SHIBAK (Platform Token)
+### 1. [[SHIBAKEN Token]] (ShibaKen.Finance)
+See [[Token System]] for complete details.
+- Contract: 0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b
+- Supply: 100,000,000,000,000,000 (100 quadrillion)
+- Purpose: Core governance and participation token
+
 ```yaml
 Base Conversion:
-  Rate: 1000 XP = 1 SHIBAK
+  Rate: 1000 XP = 1 SHIBAKEN
   Multipliers:
     Genesis: 1.5x
     Foundation: 2.0x
-    Critical: 3.0x
-    
-Pattern Value:
-  - Network participation
-  - Value creation
-  - Growth indicators
+    Council: 2.5x
 ```
 
-### 2. SBX (Network Value)
+See [[Community Engagement|1-G-L0-226-COMMUNITY]] for details.
+
+### 2. [[SBX Token]] (Network Value)
+See [[Value Flow|1-G-L0-225-VALUE-FLOW]] for details.
 ```yaml
-Governance Power:
-  Base: XP^0.5
-  Proposals:
-    L1: 10,000 XP
-    L2: 50,000 XP
-    L3: 100,000 XP
-    
-Pattern Value:
-  - Network worth
-  - Governance activity
-  - Decision flows
+Base Conversion:
+  Rate: 500 XP = 1 SBX
+  Multipliers:
+    Market: Dynamic
+    Liquidity: 1.0x - 3.0x
 ```
 
-### 3. BSTBL (Stability)
+### 3. [[BSTBL Token]] (Stability)
+See [[Stability System|1-G-L0-227-STABILITY]] for details.
 ```yaml
-Earning Multipliers:
-  Operations: 2.0x
-  Maintenance: 1.5x
-  Security: 3.0x
-    
-Pattern Value:
-  - System stability
-  - Value preservation
-  - Risk management
+Base Conversion:
+  Rate: 750 XP = 1 BSTBL
+  Multipliers:
+    Stability: Dynamic
+    Time: 1.0x - 2.0x
 ```
 
-### 4. SBV (Value Flow)
+### 4. [[SBV Token]] (Flow Metrics)
+See [[Flow Tracking|1-G-L0-228-FLOW-TRACK]] for details.
 ```yaml
-Value Multipliers:
-  Research: 2.0x
-  Innovation: 5.0x
-  Patents: 3.0x
-    
-Pattern Value:
-  - Value movement
-  - Innovation impact
-  - Growth metrics
+Base Conversion:
+  Rate: 250 XP = 1 SBV
+  Multipliers:
+    Flow: Dynamic
+    Quality: 1.0x - 4.0x
 ```
 
-### 5. EVS (Options/Derivatives)
-```yaml
-DeFi Multipliers:
-  Development: 3.0x
-  Liquidity: 2.0x
-  Governance: 1.5x
-    
-Pattern Value:
-  - Advanced instruments
-  - Risk patterns
-  - Market signals
+## Token Relationships
+See [[Token Integration|1-G-L0-224-TOKEN-INTEGRATION]] for complete details.
+
+```mermaid
+graph LR
+    XP[Research XP] -->|Converts to| SHIBAKEN[SHIBAKEN Token]
+    SHIBAKEN -->|Powers| GOV[Governance]
+    XP -->|Converts to| SBX[SBX Token]
+    SBX -->|Measures| VALUE[Network Value]
+    XP -->|Converts to| BSTBL[BSTBL Token]
+    BSTBL -->|Maintains| STABILITY[System Stability]
+    XP -->|Converts to| SBV[SBV Token]
+    SBV -->|Tracks| FLOW[Value Flow]
 ```
+
+## Integration Points
+See [[GFORCE Foundation]] for governance details.
 
 ## Professional Services
 
@@ -302,10 +298,10 @@ Pattern Value:
    - Dedicated support
 
 ## Resources
-- [Camera Framework](Camera-Framework.md)
-- [Foundation Model](Foundation-Model.md)
-- [GFORCE Standard](G-L0-004-GFORCE.md)
-- [Token System](Token-System.md)
+- [[Camera Framework]]
+- [[Foundation Model]]
+- [[GFORCE Standard]]
+- [[Token System]]
 
 ## Support
 - Professional Services

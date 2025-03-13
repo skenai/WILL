@@ -52,14 +52,14 @@ Features:
 1. **Internal Metrics**
    ```yaml
    XP: Track contribution
-   SHIBAK: Enable participation
-   BSTBL: Maintain stability
+   [[SHIBAKEN Token]]: Enable participation
+   [[BSTBL Token]]: Maintain stability
    ```
 
 2. **Market Instruments**
    ```yaml
-   SBX: Network ownership
-   SBV: Governance rights
+   [[SBX Token]]: Network ownership
+   [[SBV Token]]: Governance rights
    EVS: Options/derivatives
    ```
 
@@ -100,7 +100,7 @@ Features:
 - Risk assessment
 
 ### Phase 3: Market
-- SBX launch
+- [[SBX Token]] launch
 - Lending markets
 - Options vaults
 
@@ -135,7 +135,7 @@ This creates sustainable value through:
 - Real growth (time advantage)
 
 ## References
-- [Camera Framework](Camera-Framework.md)
-- [Foundation Model](Foundation-Model.md)
-- [Network Effects](Network-Effects.md)
-- [SKENAI Whitepaper](../../WHITEPAPER.md)
+- [[Camera Framework]]
+- [[Foundation Model]]
+- [[Network Effects]]
+- [[SKENAI Whitepaper]]
