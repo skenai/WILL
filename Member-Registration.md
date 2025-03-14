@@ -85,8 +85,8 @@ Privacy Levels:
 ```yaml
 Referral Rewards:
   Base:
-    Referrer: 1000 XP
-    Referee: 500 XP
+    Referrer: 1,000,000 SHIBAKEN
+    Referee: 500,000 SHIBAKEN
   
   Multipliers:
     Active_Member: 1.5x
@@ -127,12 +127,12 @@ Referral Rewards:
 ```yaml
 Weekly_Rewards:
   Top_3:
-    First: 5000 XP + NFT Badge
-    Second: 3000 XP
-    Third: 2000 XP
+    First: 5,000,000 SHIBAKEN + NFT Badge
+    Second: 3,000,000 SHIBAKEN
+    Third: 2,000,000 SHIBAKEN
   
   Track_Leaders:
-    XP_Bonus: 1000 XP
+    SHIBAKEN_Bonus: 1,000,000
     Multiplier: 1.5x next week
 
 Monthly_Rewards:
