@@ -1,3 +1,23 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, research, xp]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # SKENAI XP and Pattern Recognition System
 
 ## Overview
@@ -103,7 +123,7 @@ Levels:
 ### 1. Proposal Creation and Implementation
 ```yaml
 Base Rewards:
-  Creation: Track Base × Level Multiplier × Quality
+  Creation: Track Base ÃƒÆ’Ã¢â‚¬â€ Level Multiplier ÃƒÆ’Ã¢â‚¬â€ Quality
   Implementation: 100% of base XP
   Major Contribution: 50% of base XP
   Minor Contribution: 25% of base XP
@@ -312,3 +332,23 @@ Pattern Value:
 - Community Support
 - Documentation
 - AI Assistant
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

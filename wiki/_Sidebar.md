@@ -1,46 +1,52 @@
-# Documentation
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, _sidebar]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+# WILL Documentation
 
-### Core Components
-- [Home](Home)
-- [MDAG Overview](MDAG-Overview)
-- [GFORCE Framework](GFORCE-Framework)
-- [Pattern Recognition](Pattern-Recognition)
-- [Mathematical Framework](Technical-Implementation#value-ranking-system)
-- [WillChat Component](WillChat-Component)
-
-### System Architecture
+## Architecture
+- [Three-Graph Lattice](Three-Graph-Lattice)
 - [Technical Implementation](Technical-Implementation)
-- [Research and XP](Research-and-XP)
-- [Token System](Token-System)
-- [Advanced Mechanics](Token-System#advanced-mechanics)
-- [AI Integration](WILL-System#ai-integration)
-- [Parallel Systems](WILL-System#parallel-systems-architecture)
-- [Dual Framework Theory](Dual-Framework-Theory)
-- [Circuits & Mesh](Circuits-Mesh)
-- [Edge Runtime](Edge-Runtime)
+- [System Architecture](System-Architecture)
 
-### Validation & Security
-- [Validation Framework](WillChat-Component#validation-framework)
-- [Security Protocols](Technical-Implementation#security-protocols)
-- [Health Check System](Health-Check-System)
-- [Quality Metrics](WillChat-Component#quality-metrics)
+## Core Components
+- [GEORGE Framework](GEORGE-Framework)
+- [NATURAL Framework](NATURAL-Framework)
+- [NORBERT Framework](NORBERT-Framework)
+- [WillChat Component](WillChat-Component)
+- [XP System](Research-and-XP)
 
-### Integration
-- [API Documentation](API)
-- [SDK Guide](SDK)
-- [Integration Examples](Examples)
-- [GitHub Integration](GitHub-Integration)
-- [Social Integration](Social-Integration)
+## Development
+- [API Reference](API-Reference)
+- [Integration Guide](Integration-Guide)
+- [Security](Security-and-Testing)
+- [Best Practices](Best-Practices)
 
-### Developer Resources
-- [Quick Start](QuickStart)
-- [Best Practices](BestPractices)
-- [Development Process](Development)
-- [Testing Guide](Testing)
+## Previous Versions
+- [v1.0.0 Documentation](versions/v1.0.0/Home)
+- [Version History](versions/VERSION-HISTORY)
+- [Release Notes](versions/RELEASE-2.0.0)
 
-### Community
-- [Support Resources](Support)
-- [Community Forums](Community)
-- [Contributing](Contributing)
-- [Code of Conduct](CodeOfConduct)
-- [FAQs](FAQ)
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance

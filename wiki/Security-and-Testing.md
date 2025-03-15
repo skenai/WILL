@@ -1,3 +1,23 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, security, testing]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # Security and Testing Framework
 
 ## Contribution Security
@@ -250,3 +270,23 @@ Severity Levels:
 2. Environment setup
 3. Testing procedures
 4. Emergency responses
+
+
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking

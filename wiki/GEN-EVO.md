@@ -1,36 +1,66 @@
-# GEN-EVO: Evolution Framework
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, gen, evo]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+# GEN-EVO Overview
 
 ## Overview
-GEN-EVO represents SKENAI's evolutionary framework, operating alongside and complementary to the LEGEND genesis framework. While LEGEND provides foundational structure, GEN-EVO enables natural emergence and adaptation.
+
+The GEN-EVO (Genesis Evolution) system implements WILLIAM's evolution and emergence patterns through a three-stage architecture.
 
 ## Core Components
 
-### NATURAL System
-- Emergent structure principles
-- Dynamic quality-based routing
-- Self-adjusting reward mechanics
-- Natural value flow
+### 1. Stage 1 (SKENAI)
+```
+[Raw] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Initial] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Basic]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ        ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Log] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Process] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Check]
+```
+- Raw pattern intake
+- Initial emergence
+- Basic validation
+- Pattern categorization
+- Preliminary evolution
 
-### Implementation Pillars
-1. **FLOW Engine**
-   - Natural value distribution
-   - Dynamic path optimization
-   - Adaptive routing mechanics
+### 2. Stage 2 (SKENAI-Q)
+```
+[Deep] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Quality] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Validate]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢           ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Track] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Assess] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Review]
+```
+- Pattern validation
+- Quality assessment
+- Evolution protocols
+- Technical review
+- System feedback
 
-2. **GRAPH System**
-   - Emergent network topology
-   - Dynamic connection strength
-   - Natural clustering
-
-3. **AIQ Framework**
-   - Quality measurement
-   - Performance metrics
-   - Adaptive scoring
-
-4. **Economic Layer**
-   - Natural incentive alignment
-   - Value flow optimization
-   - Dynamic reward distribution
+### 3. Stage 3 (SKENAI-R)
+```
+[Final] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Deploy] ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ [Release]
+  ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Ëœ         ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Â¢          ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬Å“
+[Monitor] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Secure] ÃƒÂ¢Ã¢â‚¬Â Ã‚Â [Track]
+```
+- Final verification
+- Production readiness
+- Pattern deployment
+- Access management
+- System monitoring
 
 ## Relationship with LEGEND
 - LEGEND: Genesis framework (foundational structure)
@@ -62,6 +92,21 @@ Together, this creates a system where:
 
 This collaboration enables GEN-EVO to be both highly efficient and deeply meaningful, combining machine precision with human wisdom.
 
-## References
-- 1-G-L0-115-NATURAL
-- Related implementation proposals
+## Integration with NATURAL Framework
+- Clean repository separation
+- Natural pipeline flow
+- Validator protection
+- Interface standards
+
+## Pipeline API Integration
+- /pipeline/submit - Entry point
+- /pipeline/validate - Basic checks
+- /pipeline/analyze - Efficiency (Q.1)
+- /pipeline/patterns - Recognition (Q.2)
+- /pipeline/status - State checks
+- /pipeline/vote - Governance
+
+## Integration with Three-Graph Lattice
+- Technical graph validation
+- Economic resource optimization
+- Quality metrics tracking
