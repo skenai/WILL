@@ -26,22 +26,28 @@ changelog:
 - [System Architecture](System-Architecture)
 
 ## Core Components
-- [GEORGE Framework](GEORGE-Framework)
+- [GFORCE Framework](GFORCE-Framework)
 - [NATURAL Framework](NATURAL-Framework)
 - [NORBERT Framework](NORBERT-Framework)
 - [WillChat Component](WillChat-Component)
-- [XP System](Research-and-XP)
+- [XP System](XP-System)
+- [Evolution Arena](Evolution-Arena)
+  - [Price Calculator](Evolution-Arena#price-calculator)
+  - [Edge Evolution](Evolution-Arena#edge-evolution)
+  - [Challenge System](Evolution-Arena#challenge-system)
+  - [XP Distribution](Evolution-Arena#xp-distribution)
+  - [Economic Model](Evolution-Arena#economic-model)
 
 ## Development
 - [API Reference](API-Reference)
 - [Integration Guide](Integration-Guide)
-- [Security](Security-and-Testing)
+- [Security](Security)
 - [Best Practices](Best-Practices)
 
 ## Previous Versions
-- [v1.0.0 Documentation](versions/v1.0.0/Home)
-- [Version History](versions/VERSION-HISTORY)
-- [Release Notes](versions/RELEASE-2.0.0)
+- [v1.0.0 Documentation](v1.0.0-Documentation)
+- [Version History](Version-History)
+- [Release Notes](Release-Notes)
 
 ## Pipeline API Integration
 - /pipeline/submit - Entry point
