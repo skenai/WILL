@@ -1,3 +1,23 @@
+---
+version: 2.0.0
+date: 2025-03-04
+type: system-doc
+status: public
+tags: [william, readme]
+related: []
+changelog:
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
 # WILL - Web3 Intelligence & Learning Layer
 
 WILL (Web3 Intelligence & Learning Layer) is an advanced AI system designed to facilitate meaningful interactions and knowledge sharing in the Web3 ecosystem. As a core component of the SKENAI DAO, WILL represents the next generation of decentralized intelligence.

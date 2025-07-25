@@ -1,0 +1,12 @@
+# Temporary files
+*.tmp
+*.temp
+doc-check-*.json
+
+# Script output
+output/
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
