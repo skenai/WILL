@@ -1,46 +1,84 @@
-# Documentation
+---
+version: 2.1.0
+date: 2025-03-16
+type: research-doc
+status: theoretical
+tags: [william, research, theoretical, validation, _sidebar]
+related: [Research-Disclaimer, Introduction-to-William]
+changelog:
+  - version: 2.1.0
+    date: 2025-03-16
+    changes:
+      - "MAJOR: Enhanced research clarity"
+      - "MAJOR: Strengthened theoretical foundation"
+      - "MAJOR: Reorganized for research focus"
+    references:
+      - "Research-Disclaimer"
+  - version: 2.1.0
+    date: 2025-03-15
+    changes:
+      - "MAJOR: Reorganize for William-centric focus"
+      - "MAJOR: Add Introduction to William"
+      - "MAJOR: Update framework organization"
+    references: []
+  - version: 2.0.0
+    date: 2025-03-04
+    changes:
+      - "MAJOR: Switch to YAML frontmatter"
+      - "MAJOR: Enhanced metadata structure"
+    references: []
+  - version: 1.0.0
+    date: 2025-03-03
+    changes:
+      - "MAJOR: Initial documentation"
+    references: []
+---
+# William Research Project
 
-### Core Components
-- [Home](Home)
-- [MDAG Overview](MDAG-Overview)
-- [GFORCE Framework](GFORCE-Framework)
-- [Pattern Recognition](Pattern-Recognition)
-- [Mathematical Framework](Technical-Implementation#value-ranking-system)
-- [WillChat Component](WillChat-Component)
+## Essential Research Information
+- [Research Disclaimer](Research-Disclaimer)
+- [Introduction to William](Introduction-to-William)
+- [Community Guidelines](Community-Guidelines)
+- [Recent Updates](Recent-Updates)
 
-### System Architecture
-- [Technical Implementation](Technical-Implementation)
-- [Research and XP](Research-and-XP)
-- [Token System](Token-System)
-- [Advanced Mechanics](Token-System#advanced-mechanics)
-- [AI Integration](WILL-System#ai-integration)
-- [Parallel Systems](WILL-System#parallel-systems-architecture)
-- [Dual Framework Theory](Dual-Framework-Theory)
-- [Circuits & Mesh](Circuits-Mesh)
-- [Edge Runtime](Edge-Runtime)
-
-### Validation & Security
-- [Validation Framework](WillChat-Component#validation-framework)
-- [Security Protocols](Technical-Implementation#security-protocols)
-- [Health Check System](Health-Check-System)
-- [Quality Metrics](WillChat-Component#quality-metrics)
-
-### Integration
-- [API Documentation](API)
-- [SDK Guide](SDK)
-- [Integration Examples](Examples)
-- [GitHub Integration](GitHub-Integration)
-- [Social Integration](Social-Integration)
-
-### Developer Resources
-- [Quick Start](QuickStart)
-- [Best Practices](BestPractices)
-- [Development Process](Development)
-- [Testing Guide](Testing)
-
-### Community
-- [Support Resources](Support)
-- [Community Forums](Community)
+## Getting Started
+- [Quick Start Guide](Quick-Start-Guide)
+- [FAQ](FAQ)
 - [Contributing](Contributing)
-- [Code of Conduct](CodeOfConduct)
-- [FAQs](FAQ)
+- [Member Registration](Member-Registration)
+
+## Public Research Areas
+- [Research Overview](Research-and-XP)
+- [Documentation Standards](Documentation-Standards)
+- [Best Practices](Best-Practices)
+- [Health Check System](Health-Check-System)
+
+## Development Resources
+- [API Documentation](API-Documentation)
+- [Integration Guide](Integration-Guide)
+- [Examples](Examples)
+- [Quality Metrics](Quality-Metrics)
+
+## Community Research
+- [Governance Framework](Governance-Framework)
+- [Governance Proposals](Governance-Proposals)
+- [Growth Strategy](Growth-Strategy)
+- [Market Overview](Market-Overview)
+
+## Research Support
+- Research Team: [research]
+- Documentation: [docs]
+- Development: [dev]
+- Support: [support]
+
+## Research Locations
+- Research Interface: [interface]
+- Research Documentation: [docs]
+- Research Status: [status]
+- Research Blog: [blog]
+
+## Research Contact
+For research inquiries:
+- Research Team: [research]
+- Documentation: [docs]
+- Support: [support]
