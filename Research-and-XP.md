@@ -245,6 +245,7 @@ Allocation Strategy Research:
 
 ## Token Integration Research
 
+<<<<<<< HEAD
 ### 1. SHIBAK Research (Platform Token)
 ```yaml
 Base Conversion Studies:
@@ -315,6 +316,74 @@ Pattern Value Research:
 ```
 
 ## Professional Services Research
+=======
+### 1. [[SHIBAKEN Token]] (ShibaKen.Finance)
+See [[Token System]] for complete details.
+- Contract: 0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b
+- Supply: 100,000,000,000,000,000 (100 quadrillion)
+- Purpose: Core governance and participation token
+
+```yaml
+Base Conversion:
+  Rate: 1000 XP = 1 SHIBAKEN
+  Multipliers:
+    Genesis: 1.5x
+    Foundation: 2.0x
+    Council: 2.5x
+```
+
+See [[Community Engagement|1-G-L0-226-COMMUNITY]] for details.
+
+### 2. [[SBX Token]] (Network Value)
+See [[Value Flow|1-G-L0-225-VALUE-FLOW]] for details.
+```yaml
+Base Conversion:
+  Rate: 500 XP = 1 SBX
+  Multipliers:
+    Market: Dynamic
+    Liquidity: 1.0x - 3.0x
+```
+
+### 3. [[BSTBL Token]] (Stability)
+See [[Stability System|1-G-L0-227-STABILITY]] for details.
+```yaml
+Base Conversion:
+  Rate: 750 XP = 1 BSTBL
+  Multipliers:
+    Stability: Dynamic
+    Time: 1.0x - 2.0x
+```
+
+### 4. [[SBV Token]] (Flow Metrics)
+See [[Flow Tracking|1-G-L0-228-FLOW-TRACK]] for details.
+```yaml
+Base Conversion:
+  Rate: 250 XP = 1 SBV
+  Multipliers:
+    Flow: Dynamic
+    Quality: 1.0x - 4.0x
+```
+
+## Token Relationships
+See [[Token Integration|1-G-L0-224-TOKEN-INTEGRATION]] for complete details.
+
+```mermaid
+graph LR
+    XP[Research XP] -->|Converts to| SHIBAKEN[SHIBAKEN Token]
+    SHIBAKEN -->|Powers| GOV[Governance]
+    XP -->|Converts to| SBX[SBX Token]
+    SBX -->|Measures| VALUE[Network Value]
+    XP -->|Converts to| BSTBL[BSTBL Token]
+    BSTBL -->|Maintains| STABILITY[System Stability]
+    XP -->|Converts to| SBV[SBV Token]
+    SBV -->|Tracks| FLOW[Value Flow]
+```
+
+## Integration Points
+See [[GFORCE Foundation]] for governance details.
+
+## Professional Services
+>>>>>>> 5db85bfdbd578538fdb102ced96e10bcd467cf72
 
 ### Service Tier Studies
 1. **Basic Access Research**
@@ -332,11 +401,19 @@ Pattern Value Research:
    - Private analytics research
    - Support methodology analysis
 
+<<<<<<< HEAD
 ## Research Resources
 - [Camera Framework Research](Camera-Framework.md)
 - [NATURAL Framework Research](NATURAL-Framework.md)
 - [SKENAI Research](SKENAI.md)
 - [Token Research](Token-System.md)
+=======
+## Resources
+- [[Camera Framework]]
+- [[Foundation Model]]
+- [[GFORCE Standard]]
+- [[Token System]]
+>>>>>>> 5db85bfdbd578538fdb102ced96e10bcd467cf72
 
 ## Contact Information
 - Research Team: [research]

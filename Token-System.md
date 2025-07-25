@@ -26,6 +26,7 @@ SKENAI investigates theoretical measurement tools to track, validate, and enable
 
 ## Research Architecture
 
+<<<<<<< HEAD
 ### Internal Research Metrics
 
 1. **XP (Experience Points) Research**
@@ -33,6 +34,21 @@ SKENAI investigates theoretical measurement tools to track, validate, and enable
    - Features: Pattern recognition research
    - Implementation: Experimental measurement
    - Status: Under active research
+=======
+2. **SHIBAKEN (ShibaKen.Finance)**
+   - Purpose: Enable system participation
+   - Features: Basic access, simple transactions
+   - Implementation: [[Community Engagement|1-G-L0-226-COMMUNITY]]
+   - Total Supply: 100,000,000,000,000,000
+   - Contract: 0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b
+   - Status: Deployed May 2021
+
+3. **BSTBL (Stability Metric)**
+   - Purpose: Measure and maintain stability
+   - Features: Value preservation, flow balance
+   - Implementation: [[Stability System|1-G-L0-227-STABILITY]]
+   - Status: Development Q1 2025
+>>>>>>> 5db85bfdbd578538fdb102ced96e10bcd467cf72
 
 2. **SHIBAK (Participation Token) Research**
    - Purpose: System participation studies
@@ -54,6 +70,7 @@ SKENAI investigates theoretical measurement tools to track, validate, and enable
    - Implementation: Research validation
    - Status: Under development
 
+<<<<<<< HEAD
 2. **EVO (Evolution Token) Research**
    - Purpose: Evolution research methods
    - Features: Growth research studies
@@ -61,6 +78,19 @@ SKENAI investigates theoretical measurement tools to track, validate, and enable
    - Status: Under development
 
 ### Market Research Instruments
+=======
+1. **SBX (Network Value)**
+   - Purpose: Measure network worth
+   - Features: Ownership, governance rights
+   - Implementation: [[Value Flow|1-G-L0-225-VALUE-FLOW]]
+   - Status: Development Q1 2025
+
+2. **SBV (Value Flow)**
+   - Purpose: Track value movement
+   - Features: Flow metrics, market signals
+   - Implementation: [[Flow Tracking|1-G-L0-228-FLOW-TRACK]]
+   - Status: Development Q1 2025
+>>>>>>> 5db85bfdbd578538fdb102ced96e10bcd467cf72
 
 1. **SBX (Network Value) Research**
    - Purpose: Network research studies
@@ -84,6 +114,7 @@ SKENAI investigates theoretical measurement tools to track, validate, and enable
 
 ### 1. Value Research Framework
 ```yaml
+<<<<<<< HEAD
 Research Components:
   Pattern Research:
     - Flow research studies
@@ -99,6 +130,28 @@ Research Components:
     - Price research methods
     - Value study framework
     - Risk research analysis
+=======
+Components:
+  Token System:
+    SHIBAKEN:
+      Name: ShibaKen.Finance
+      Symbol: SHIBAKEN
+      Supply: 100,000,000,000,000,000
+      Contract: 0xa4cf2afd3b165975afffbf7e487cdd40c894ab6b
+      Purpose: Core governance and participation
+    
+    SBX:
+      Purpose: Network value measurement
+      Features: Market-driven pricing
+    
+    BSTBL:
+      Purpose: Stability mechanism
+      Features: Algorithmic control
+    
+    SBV:
+      Purpose: Value flow tracking
+      Features: Flow metrics
+>>>>>>> 5db85bfdbd578538fdb102ced96e10bcd467cf72
 ```
 
 ### 2. Research Integration
@@ -214,7 +267,15 @@ Research Components:
 4. Results require verification
 5. Integration needs validation
 
+<<<<<<< HEAD
 ## A Note to Our Family
+=======
+## Resources
+- [[Camera Framework|1-G-L0-229-CAMERA-FRAMEWORK]]
+- [[Foundation Model|1-G-L0-230-FOUNDATION-MODEL]]
+- [[Network Effects|1-G-L0-231-NETWORK-EFFECTS]]
+- [[SKENAI Whitepaper|../../WHITEPAPER.md]]
+>>>>>>> 5db85bfdbd578538fdb102ced96e10bcd467cf72
 
 While maintaining our rigorous research foundation, we recognize that William's strength comes from bringing people together. As a family-focused business, we:
 - Value research integrity

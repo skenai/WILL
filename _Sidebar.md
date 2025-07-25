@@ -2,7 +2,7 @@
 version: 2.1.0
 date: 2025-03-16
 type: research-doc
-status: public
+status: theoretical
 tags: [william, research, theoretical, validation, _sidebar]
 related: [Research-Disclaimer, Introduction-to-William]
 changelog:

@@ -248,3 +248,16 @@ While maintaining our rigorous research foundation, we recognize that William's 
 - Win through excellence
 
 Remember: While we operate as a family business, our foundation is built on rigorous research and validation. Every feature and capability represents ongoing research that requires thorough testing before practical implementation.
+
+## SPAN-VERGE Integration
+
+As of Version 3.0.0 (Genesis Epoch), this component is fully integrated with the SPAN-VERGE epochal transition system:
+
+- **Epochal Transitions**: Supports automated state transitions via VERGE
+- **Multi-Agent Collaboration**: Integrates with ARCHIE, HORATIO, CHANDLER, WILL
+- **SPAN Addressing**: Full SPAN addressing support for resource identification
+- **Historical Accuracy**: Automatically maintained through WILL learning environment
+
+**SPAN Address**: `span://v1/skenai-main/will/wiki/Governance-Framework`
+
+*Last updated: 2025-07-25 (SPAN-VERGE Era)*
